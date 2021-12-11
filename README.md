@@ -1,16 +1,54 @@
-# Octomap_FastPlanner_simulation
+# Four Wheel Skid Drive using MPC
 
-  Terminal-1 : cd PX4-Autopilot && 
-source ~/catkin_ws/devel/setup.bash   ###mavros location
-source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_
-roslaunch px4 m.3
-avros_posix_sitl.launch
-  Terminal-2 : cd catkin_ws && roslaunch FastPlannerOctomap MappingSim.launch (give goal location using 2D Nav Goal option)
+Four Wheel Skid Drive Simulation in gazebo using linearized unicyclic Model Prodective Control.
 
-  Terminal-3 : rosrun FastPlannerOctomap Planner
-  (or noYawPlanner if you want to plan the trajectory keeping the heading or yaw of the drone fixed). For the startOver option select either 1 or 0. Refer to the source code (FastPlannerOctomap/src/
+<!-- <center><img src="images/render1.png" alt="Rendered Image" style="zoom: 40%;" /></center> -->
 
-  Terminal-4 : rosrun FastPlannerOctomap Controller
-  
+</br>
+
+## Simulation
+
+```bash
+cd catkin_ws/src
+git clone https://github.com/rishabhdevyadav/MPC_Gazebo
+cd ..
+catkin_make
+source devel/setup.zsh
+
+# Finally launch the simulation
+roslaunch skid4wd_description sim_with_controller.launch
+```
+The simulation is started in paused state. Resume the simulation by clicking on the play button on the lower panel in Gazebo. 
+
+</br>
+
+
+
+## How To Run
+
+1. Terminal 1st:-
+```bash
+cd catkin_ws
+roslaunch skid4wd_description sim_with_controller.launch
+```
+2. Terminal 2nd:-
+```bash
+cd catkin_ws/
+source devel/setup.zsh
+roscd skid4wd_control
+cd scripts/V0_working
+python3 MPC.py
+```
+3. Terminal 3rd:-
+```bash
+cd catkin_ws/
+source devel/setup.zsh
+roscd skid4wd_control
+cd scripts/V0_working
+python control.py
+```
+
+Note:-
+For MPC optimization, "cvxpy" has been used which works only with python3, while ROS worls in python2 by default. So "Python Socket" has been used to communicate between MPC.py and control.py.
+
+MPC.py receive current state [x,y,yaw,v,omega] and send new [v, omega].
