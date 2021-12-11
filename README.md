@@ -2,7 +2,7 @@
 
 Four Wheel Skid Drive Simulation in gazebo using linearized unicyclic Model Prodective Control.
 
-<!-- <center><img src="images/render1.png" alt="Rendered Image" style="zoom: 40%;" /></center> -->
+<center><img src="images/render1.png" alt="Rendered Image" style="zoom: 40%;" /></center>
 
 </br>
 
