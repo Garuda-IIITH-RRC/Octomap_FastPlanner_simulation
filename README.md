@@ -10,10 +10,10 @@ All folder(workspaces) are in /home directory
   Contain PX4-Gazebo-Sitl
   
 2. catkin_ws\
-  Conatin mavros
+  Conatins mavros
   
 3. fastplanner_ws\
-  Conatain mapping, planning and controller
+  Conatains mapping, planning and controller
 
 
 ## How To Run
