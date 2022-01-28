@@ -66,7 +66,7 @@ rosrun FastPlannerOctomap Controller
 ### Youtube Link:-
 
 <p align="center">
-  [![Alt text](https://img.youtube.com/vi/xpzdZVvVE0Y/0.jpg)](https://www.youtube.com/watch?v=xpzdZVvVE0Y)
+  (https://img.youtube.com/vi/xpzdZVvVE0Y/0.jpg)](https://www.youtube.com/watch?v=xpzdZVvVE0Y)
 </p>
 [![Alt text](https://img.youtube.com/vi/xpzdZVvVE0Y/0.jpg)](https://www.youtube.com/watch?v=xpzdZVvVE0Y)
 
