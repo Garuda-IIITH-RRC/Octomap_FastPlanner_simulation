@@ -58,7 +58,6 @@ cd fastplanner_ws/
 source devel/setup.bash
 rosrun FastPlannerOctomap Controller
 ```
-![test image size]<img src="https://github.com/Garuda-IIITH-RRC/Octomap_FastPlanner_simulation/blob/main/fast_sim.gif" width="400" height="790">
-![](https://github.com/Garuda-IIITH-RRC/Octomap_FastPlanner_simulation/blob/main/fast_sim.gif)
+![]<img src="https://github.com/Garuda-IIITH-RRC/Octomap_FastPlanner_simulation/blob/main/fast_sim.gif" width="800" height="500">
 
 Reference:- https://github.com/deepak-1530/FastPlannerOctomap
