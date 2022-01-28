@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/controller_msgs/lib/pkgconfig/controller_msgs.pc

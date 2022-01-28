@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/devel/.private/geodesy
+
+Name: geodesy
+Description: Description of geodesy
+Version: 0.5.5
+Cflags: -I/home/rishabh/catkin_ws/src/geographic_info/geodesy/include
+Libs: -L${prefix}/lib -lgeoconv
+Requires: geographic_msgs geometry_msgs sensor_msgs tf unique_id uuid_msgs

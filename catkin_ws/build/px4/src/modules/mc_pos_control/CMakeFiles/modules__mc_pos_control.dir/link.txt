@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/rishabh/catkin_ws/devel/.private/px4/lib/libmodules__mc_pos_control.a  CMakeFiles/modules__mc_pos_control.dir/MulticopterPositionControl.cpp.o
+/usr/bin/ranlib /home/rishabh/catkin_ws/devel/.private/px4/lib/libmodules__mc_pos_control.a

@@ -1,0 +1,13 @@
+\subsubsection usage Usage
+\verbatim
+<node name="geometric_controller" pkg="geometric_controller" type="geometric_controller">
+  <param name="max_acc" type="double" value="7.0" />
+  <param name="Kp_x" type="double" value="8.0" />
+  <param name="Kp_y" type="double" value="8.0" />
+  <param name="Kp_z" type="double" value="10.0" />
+  <param name="Kv_x" type="double" value="1.5" />
+  <param name="Kv_y" type="double" value="1.5" />
+  <param name="Kv_z" type="double" value="3.3" />
+</node>
+\endverbatim
+

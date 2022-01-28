@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/rishabh/catkin_ws/devel/.private/px4/lib/libmodules__simulator__battery_simulator.a  CMakeFiles/modules__simulator__battery_simulator.dir/BatterySimulator.cpp.o
+/usr/bin/ranlib /home/rishabh/catkin_ws/devel/.private/px4/lib/libmodules__simulator__battery_simulator.a

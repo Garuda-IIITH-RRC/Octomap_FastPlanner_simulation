@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/msg_check/lib/python2.7/dist-packages/msg_check/msg/__init__.py

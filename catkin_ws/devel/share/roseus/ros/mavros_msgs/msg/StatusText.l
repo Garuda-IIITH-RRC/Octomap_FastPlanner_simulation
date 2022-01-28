@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/mavros_msgs/share/roseus/ros/mavros_msgs/msg/StatusText.l

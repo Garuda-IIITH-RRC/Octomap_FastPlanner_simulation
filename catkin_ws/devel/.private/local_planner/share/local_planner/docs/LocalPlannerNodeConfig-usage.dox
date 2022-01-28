@@ -1,0 +1,25 @@
+\subsubsection usage Usage
+\verbatim
+<node name="avoidance" pkg="avoidance" type="avoidance">
+  <param name="max_sensor_range_" type="double" value="15.0" />
+  <param name="min_sensor_range_" type="double" value="0.2" />
+  <param name="pitch_cost_param_" type="double" value="25.0" />
+  <param name="yaw_cost_param_" type="double" value="3.0" />
+  <param name="velocity_cost_param_" type="double" value="6000.0" />
+  <param name="obstacle_cost_param_" type="double" value="8.5" />
+  <param name="tree_heuristic_weight_" type="double" value="35.0" />
+  <param name="goal_z_param" type="double" value="3.5" />
+  <param name="timeout_startup_" type="double" value="5.0" />
+  <param name="timeout_critical_" type="double" value="0.5" />
+  <param name="timeout_termination_" type="double" value="15.0" />
+  <param name="max_point_age_s_" type="double" value="20.0" />
+  <param name="min_num_points_per_cell_" type="int" value="1" />
+  <param name="smoothing_speed_xy_" type="double" value="10.0" />
+  <param name="smoothing_speed_z_" type="double" value="3.0" />
+  <param name="smoothing_margin_degrees_" type="double" value="40.0" />
+  <param name="children_per_node_" type="int" value="8" />
+  <param name="n_expanded_nodes_" type="int" value="40" />
+  <param name="tree_node_distance_" type="double" value="2.0" />
+</node>
+\endverbatim
+

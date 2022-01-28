@@ -1,0 +1,5 @@
+/home/rishabh/catkin_ws/devel/.private/mavros/lib/libmavros.so: file not recognized: File truncated
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/rishabh/catkin_ws/devel/.private/trajectory_publisher/lib/trajectory_publisher/trajectory_publisher] Error 1
+make[1]: *** [CMakeFiles/trajectory_publisher.dir/all] Error 2
+make: *** [all] Error 2

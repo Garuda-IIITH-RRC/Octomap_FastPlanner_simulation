@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/devel/.private/controller_msgs
+
+Name: controller_msgs
+Description: Description of controller_msgs
+Version: 0.0.1
+Cflags: -I/home/rishabh/catkin_ws/devel/.private/controller_msgs/include -I/home/rishabh/catkin_ws/src/mavros_controllers/controller_msgs/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs sensor_msgs message_runtime std_msgs

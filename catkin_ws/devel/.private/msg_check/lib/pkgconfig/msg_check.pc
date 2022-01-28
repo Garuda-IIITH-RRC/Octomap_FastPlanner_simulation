@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/devel/.private/msg_check
+
+Name: msg_check
+Description: Description of msg_check
+Version: 2.1.2
+Cflags: -I/home/rishabh/catkin_ws/devel/.private/msg_check/include -I/home/rishabh/catkin_ws/src/msg_check/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lmsg_check
+Requires: geometry_msgs mav_msgs nav_msgs roscpp rospy sensor_msgs message_runtime

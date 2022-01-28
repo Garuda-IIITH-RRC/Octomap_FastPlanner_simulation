@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/controller_msgs/share/controller_msgs/cmake/controller_msgs-msg-extras.cmake

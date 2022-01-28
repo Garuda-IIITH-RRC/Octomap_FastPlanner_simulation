@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/install
+
+Name: geodesy
+Description: Description of geodesy
+Version: 0.5.5
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lgeoconv
+Requires: geographic_msgs geometry_msgs sensor_msgs tf unique_id uuid_msgs

@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target mocap_optitrack_mocap_node[0m
+[ 11%] [32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/mocap_node.cpp.o[0m
+[ 22%] [32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/rigid_body_publisher.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/mocap_optitrack/lib/mocap_optitrack/mocap_node[0m
+[100%] Built target mocap_optitrack_mocap_node

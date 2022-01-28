@@ -1,0 +1,58 @@
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target mav_msgs_generate_messages_nodejs
+[  0%] Built target mav_msgs_generate_messages_lisp
+[  0%] Built target mav_msgs_generate_messages_eus
+[  0%] Built target mav_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target gazebo_msgs_generate_messages_lisp
+[  0%] Built target gazebo_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target mav_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target gazebo_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target gazebo_msgs_generate_messages_eus
+[  0%] Built target gazebo_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_cpp
+[ 14%] Built target sdf
+[35m[1mScanning dependencies of target waypoint_publisher_file[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.o[0m
+[35m[1mScanning dependencies of target waypoint_publisher[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/waypoint_publisher.dir/src/waypoint_publisher.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/rotors_gazebo/lib/rotors_gazebo/waypoint_publisher_file[0m
+[ 71%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/rotors_gazebo/lib/rotors_gazebo/waypoint_publisher[0m
+[ 71%] Built target waypoint_publisher_file
+[35m[1mScanning dependencies of target hovering_example[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/hovering_example.dir/src/hovering_example.cpp.o[0m
+[ 85%] Built target waypoint_publisher
+[100%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/rotors_gazebo/lib/rotors_gazebo/hovering_example[0m
+[100%] Built target hovering_example

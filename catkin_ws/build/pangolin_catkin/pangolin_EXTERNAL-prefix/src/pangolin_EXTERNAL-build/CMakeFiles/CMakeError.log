@@ -1,0 +1,25 @@
+Performing C++ SOURCE FILE Test HAVE_FFMPEG_MAX_ANALYZE_DURATION2 failed with the following output:
+Change Dir: /home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9137c/fast"
+make[3]: Entering directory '/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9137c.dir/build.make CMakeFiles/cmTC_9137c.dir/build
+make[4]: Entering directory '/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9137c.dir/src.cxx.o
+/usr/bin/c++   -I/usr/include/x86_64-linux-gnu  -std=c++0x -Wall -Wextra  -DHAVE_FFMPEG_MAX_ANALYZE_DURATION2   -o CMakeFiles/cmTC_9137c.dir/src.cxx.o -c /home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-build/CMakeFiles/CMakeTmp/src.cxx
+/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-build/CMakeFiles/CMakeTmp/src.cxx:3:33: error: ‘max_analyze_duration2’ is not a member of ‘AVFormatContext’
+         sizeof(AVFormatContext::max_analyze_duration2);
+                                 ^~~~~~~~~~~~~~~~~~~~~
+CMakeFiles/cmTC_9137c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9137c.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_9137c.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9137c/fast' failed
+make[3]: *** [cmTC_9137c/fast] Error 2
+make[3]: Leaving directory '/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include "/usr/include/x86_64-linux-gnu/libavformat/avformat.h"
+      int main() {
+        sizeof(AVFormatContext::max_analyze_duration2);
+      }

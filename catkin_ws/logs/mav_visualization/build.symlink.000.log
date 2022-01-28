@@ -1,0 +1,6 @@
+Symlinking /home/rishabh/catkin_ws/devel/lib/libmav_visualization.so
+Symlinking /home/rishabh/catkin_ws/devel/lib/pkgconfig/mav_visualization.pc
+Symlinking /home/rishabh/catkin_ws/devel/lib/mav_visualization/hexacopter_publisher
+Symlinking /home/rishabh/catkin_ws/devel/lib/mav_visualization/leica_publisher
+Symlinking /home/rishabh/catkin_ws/devel/share/mav_visualization/cmake/mav_visualizationConfig-version.cmake
+Symlinking /home/rishabh/catkin_ws/devel/share/mav_visualization/cmake/mav_visualizationConfig.cmake

@@ -1,0 +1,19 @@
+[31m[1mCMake Error[0m at /home/rishabh/catkin_ws/devel/share/catkin_simple/cmake/catkin_simple-extras.cmake:38 (find_package):
+  By not providing "Findnlopt.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "nlopt", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "nlopt" with any of
+  the following names:
+
+    nloptConfig.cmake
+    nlopt-config.cmake
+
+  Add the installation prefix of "nlopt" to CMAKE_PREFIX_PATH or set
+  "nlopt_DIR" to a directory containing one of the above files.  If "nlopt"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:5 (catkin_simple)
+
+

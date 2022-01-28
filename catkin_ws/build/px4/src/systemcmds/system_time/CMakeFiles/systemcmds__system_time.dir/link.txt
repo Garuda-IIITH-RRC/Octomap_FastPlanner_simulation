@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/rishabh/catkin_ws/devel/.private/px4/lib/libsystemcmds__system_time.a  CMakeFiles/systemcmds__system_time.dir/system_time.cpp.o
+/usr/bin/ranlib /home/rishabh/catkin_ws/devel/.private/px4/lib/libsystemcmds__system_time.a

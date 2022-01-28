@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target ring_traj[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ring_traj.dir/src/ring_traj.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/dron_basic/lib/dron_basic/ring_traj[0m
+[100%] Built target ring_traj

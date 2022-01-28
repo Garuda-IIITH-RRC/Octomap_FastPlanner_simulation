@@ -1,0 +1,4 @@
+Symlinking /home/rishabh/catkin_ws/devel/lib/libavoidance.so
+Symlinking /home/rishabh/catkin_ws/devel/lib/pkgconfig/avoidance.pc
+Symlinking /home/rishabh/catkin_ws/devel/share/avoidance/cmake/avoidanceConfig-version.cmake
+Symlinking /home/rishabh/catkin_ws/devel/share/avoidance/cmake/avoidanceConfig.cmake

@@ -1,0 +1,9 @@
+deprecated.lo: ../nlopt-2.4.2/api/deprecated.c /usr/include/stdc-predef.h \
+ ../nlopt-2.4.2/api/nlopt.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h
+
+/usr/include/stdc-predef.h:
+
+../nlopt-2.4.2/api/nlopt.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h:

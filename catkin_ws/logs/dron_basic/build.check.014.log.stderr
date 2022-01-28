@@ -1,0 +1,11 @@
+[33m[1mCMake Warning[0m at /opt/ros/melodic/share/cmake_modules/cmake/Modules/FindEigen.cmake:62 (message):
+  The FindEigen.cmake Module in the cmake_modules package is deprecated.
+
+  Please use the FindEigen3.cmake Module provided with Eigen.  Change
+  instances of find_package(Eigen) to find_package(Eigen3).  Check the
+  FindEigen3.cmake Module for the resulting CMake variable names.
+
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:21 (find_package)
+
+

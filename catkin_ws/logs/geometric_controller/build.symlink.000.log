@@ -1,0 +1,12 @@
+Symlinking /home/rishabh/catkin_ws/devel/lib/libgeometric_controller.so
+Symlinking /home/rishabh/catkin_ws/devel/lib/pkgconfig/geometric_controller.pc
+Symlinking /home/rishabh/catkin_ws/devel/lib/python2.7/dist-packages/geometric_controller/__init__.py
+Symlinking /home/rishabh/catkin_ws/devel/lib/python2.7/dist-packages/geometric_controller/cfg/__init__.py
+Symlinking /home/rishabh/catkin_ws/devel/lib/python2.7/dist-packages/geometric_controller/cfg/GeometricControllerConfig.py
+Symlinking /home/rishabh/catkin_ws/devel/lib/geometric_controller/geometric_controller_node
+Symlinking /home/rishabh/catkin_ws/devel/include/geometric_controller/GeometricControllerConfig.h
+Symlinking /home/rishabh/catkin_ws/devel/share/geometric_controller/cmake/geometric_controllerConfig.cmake
+Symlinking /home/rishabh/catkin_ws/devel/share/geometric_controller/cmake/geometric_controllerConfig-version.cmake
+Symlinking /home/rishabh/catkin_ws/devel/share/geometric_controller/docs/GeometricControllerConfig.dox
+Symlinking /home/rishabh/catkin_ws/devel/share/geometric_controller/docs/GeometricControllerConfig-usage.dox
+Symlinking /home/rishabh/catkin_ws/devel/share/geometric_controller/docs/GeometricControllerConfig.wikidoc

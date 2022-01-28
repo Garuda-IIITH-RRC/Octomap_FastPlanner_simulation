@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/rishabh/catkin_ws/devel/.private/px4/lib/libFlightTaskManualAcceleration.a  CMakeFiles/FlightTaskManualAcceleration.dir/FlightTaskManualAcceleration.cpp.o
+/usr/bin/ranlib /home/rishabh/catkin_ws/devel/.private/px4/lib/libFlightTaskManualAcceleration.a

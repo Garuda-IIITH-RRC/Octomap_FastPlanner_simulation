@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="dynamic_tf" pkg="px4" type="d_tf.py" output="screen" />
+
+    <node  pkg="tf" type="static_transform_publisher" name="imu_camera" args="0.1 0 0 -1.57 0 -1.57 base_link camera_link 100" />
+
+    <node  pkg="tf" type="static_transform_publisher" name="base_odom" args="0 0 0 0 0 0 base_link odom 100" />
+
+</launch>

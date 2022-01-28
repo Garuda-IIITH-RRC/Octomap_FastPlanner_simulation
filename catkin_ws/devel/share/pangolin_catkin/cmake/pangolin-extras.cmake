@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/pangolin_catkin/share/pangolin_catkin/cmake/pangolin-extras.cmake

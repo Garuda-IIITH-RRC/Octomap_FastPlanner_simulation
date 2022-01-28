@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/install
+
+Name: rotors_hil_interface
+Description: Description of rotors_hil_interface
+Version: 2.2.3
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrotors_hil_interface
+Requires: geometry_msgs mav_msgs mavros mavros_msgs roscpp sensor_msgs

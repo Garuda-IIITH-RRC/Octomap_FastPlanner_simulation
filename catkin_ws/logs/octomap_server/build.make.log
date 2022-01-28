@@ -1,0 +1,21 @@
+[  4%] Built target octomap_server_gencfg
+[  8%] [32m[1mLinking CXX shared library /home/rishabh/catkin_ws/devel/.private/octomap_server/lib/liboctomap_server.so[0m
+[ 12%] [32m[1mLinking CXX shared library /home/rishabh/catkin_ws/devel/.private/octomap_server/lib/liboctomap_server_color.so[0m
+[ 24%] Built target octomap_server_color
+[ 36%] Built target octomap_server
+[ 40%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/octomap_server/lib/octomap_server/octomap_color_server_node[0m
+[ 44%] [32m[1mLinking CXX shared library /home/rishabh/catkin_ws/devel/.private/octomap_server/lib/liboctomap_server_nodelet.so[0m
+[ 48%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/octomap_server/lib/octomap_server/octomap_server_static[0m
+[ 52%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/octomap_server/lib/octomap_server/octomap_tracking_server_node[0m
+[ 56%] Built target octomap_server_static
+[ 60%] [32m[1mLinking CXX shared library /home/rishabh/catkin_ws/devel/.private/octomap_server/lib/liboctomap_color_server_nodelet.so[0m
+[ 64%] Built target octomap_server_nodelet
+[ 68%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/octomap_server/lib/octomap_server/octomap_server_node[0m
+[ 72%] Built target octomap_color_server_node
+[ 76%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/octomap_server/lib/octomap_server/octomap_saver[0m
+[ 80%] Built target octomap_tracking_server_node
+[ 84%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/octomap_server/lib/octomap_server/octomap_server_multilayer[0m
+[ 88%] Built target octomap_color_server_nodelet
+[ 92%] Built target octomap_saver
+[ 96%] Built target octomap_server_node
+[100%] Built target octomap_server_multilayer

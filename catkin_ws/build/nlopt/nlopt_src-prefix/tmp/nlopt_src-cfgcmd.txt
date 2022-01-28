@@ -1,0 +1,1 @@
+cmd='nlopt-2.4.2/configure;--with-cxx;--without-matlab;--with-pic;--prefix=/home/rishabh/catkin_ws/install'

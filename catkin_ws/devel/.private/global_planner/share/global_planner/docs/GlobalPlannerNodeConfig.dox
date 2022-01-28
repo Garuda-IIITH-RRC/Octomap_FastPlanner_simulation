@@ -1,0 +1,34 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~min_altitude_" : \b [int] Minimum planned altitude min: 0, default: 1, max: 10
+- \b "~max_altitude_" : \b [int] Maximum planned altitude min: 0, default: 10, max: 50
+- \b "~max_cell_risk_" : \b [double] Maximum risk allowed per cells min: 0.0, default: 0.2, max: 1.0
+- \b "~smooth_factor_" : \b [double] Cost of turning min: 0.0, default: 20.0, max: 100.0
+- \b "~vert_to_hor_cost_" : \b [double] Cost of changing between horizontal and vertical direction min: 0.0, default: 3.0, max: 10.0
+- \b "~risk_factor_" : \b [double] Cost of crashing min: 0.0, default: 500.0, max: 1000.0
+- \b "~neighbor_risk_flow_" : \b [double] The effect of the risk of neighboring cells min: 0.0, default: 1.0, max: 1.0
+- \b "~explore_penalty_" : \b [double] The cost of unexplored space min: 0.0, default: 0.005, max: 0.01
+- \b "~up_cost_" : \b [double] Cost of ascending 1m min: 0.0, default: 5.0, max: 10.0
+- \b "~down_cost_" : \b [double] Cost of descending 1m min: 0.0, default: 1.0, max: 10.0
+- \b "~search_time_" : \b [double] Time it takes to return a new path min: 0.0, default: 0.5, max: 1.0
+- \b "~min_overestimate_factor_" : \b [double] The minimum overestimation for heuristics min: 1.0, default: 1.03, max: 1.5
+- \b "~max_overestimate_factor_" : \b [double] The minimum overestimation for heuristics min: 1.0, default: 2.0, max: 5.0
+- \b "~risk_threshold_risk_based_speedup_" : \b [double] Risk threshold value for using risk based speedup algorithm min: 0.0, default: 0.5, max: 1.0
+- \b "~default_speed_" : \b [double] Default speed of flight min: 0.1, default: 1.0, max: 10.0
+- \b "~max_speed_" : \b [double] Maximum speed of flight min: 1.0, default: 3.0, max: 10.0
+- \b "~max_iterations_" : \b [int] Maximum number of iterations min: 0, default: 2000, max: 10000
+- \b "~goal_must_be_free_" : \b [bool] Don't bother trying to find a path if the exact goal is occupied min: False, default: True, max: True
+- \b "~use_current_yaw_" : \b [bool] The current yaw affects the pathfinding min: False, default: True, max: True
+- \b "~use_risk_heuristics_" : \b [bool] Use non underestimating heuristics for risk min: False, default: True, max: True
+- \b "~use_speedup_heuristics_" : \b [bool] Use non underestimating heuristics for speedup min: False, default: True, max: True
+- \b "~use_risk_based_speedup_" : \b [bool] Use risk based speedup min: False, default: True, max: True
+- \b "~clicked_goal_alt_" : \b [double] The altitude of clicked goals min: 0.0, default: 3.5, max: 10.0
+- \b "~clicked_goal_radius_" : \b [double] Minimum allowed distance from path end to goal min: 0.0, default: 1.0, max: 10.0
+- \b "~simplify_iterations_" : \b [int] Maximum number of iterations to simplify a path min: 0, default: 1, max: 100
+- \b "~simplify_margin_" : \b [double] The allowed cost increase for simplifying an edge min: 0.0, default: 1.01, max: 2.0
+- \b "~CELL_SCALE" : \b [double] Size of a cell, should be divisable by the OctoMap resolution min: 0.5, default: 1.0, max: 2.0
+- \b "~SPEEDNODE_RADIUS" : \b [double] Maximum length of edge between two Cells min: 0.0, default: 5.0, max: 10.0
+- \b "~default_node_type_" : \b [str] Change search mode min: , default: SpeedNode, max: 
+

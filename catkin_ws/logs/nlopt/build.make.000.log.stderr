@@ -1,0 +1,226 @@
+--2021-02-23 12:38:24--  https://github.com/ethz-asl/thirdparty_library_binaries/raw/master/nlopt-2.4.2.tar.gz
+Resolving github.com (github.com)... 13.234.176.102
+Connecting to github.com (github.com)|13.234.176.102|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/ethz-asl/thirdparty_library_binaries/master/nlopt-2.4.2.tar.gz [following]
+--2021-02-23 12:38:25--  https://raw.githubusercontent.com/ethz-asl/thirdparty_library_binaries/master/nlopt-2.4.2.tar.gz
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2361992 (2.3M) [application/octet-stream]
+Saving to: ‘nlopt-2.4.2.tar.gz’
+
+nlopt-2.4.2.tar.gz    0%[                    ]       0  --.-KB/s               nlopt-2.4.2.tar.gz   23%[===>                ] 547.42K  2.58MB/s               nlopt-2.4.2.tar.gz   58%[==========>         ]   1.31M  3.19MB/s               nlopt-2.4.2.tar.gz  100%[===================>]   2.25M  3.72MB/s    in 0.6s    
+
+2021-02-23 12:38:27 (3.72 MB/s) - ‘nlopt-2.4.2.tar.gz’ saved [2361992/2361992]
+
+configure: WARNING: Python and Guile wrappers require --enable-shared; disabling
+configure: WARNING: can't find mkoctfile: won't be able to compile GNU Octave plugin
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+[01m[K../nlopt-2.4.2/cdirect/hybrid.c:[m[K In function '[01m[Knlopt_result optimize_rect(double*, params*)[m[K':
+[01m[K../nlopt-2.4.2/cdirect/hybrid.c:99:39:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize(nlopt_algorithm, int, nlopt_func_old, void*, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      stop->maxtime - (t - stop->start)[01;35m[K)[m[K;
+                                       [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/util/nlopt-util.h:30:0[m[K,
+                 from [01m[K../nlopt-2.4.2/cdirect/hybrid.c:27[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:329:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(nlopt_result) [01;36m[Knlopt_minimize[m[K(
+                            [01;36m[K^~~~~~~~~~~~~~[m[K
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+[01m[K../nlopt-2.4.2/newuoa/newuoa.c:[m[K In function '[01m[Knlopt_result trsapp_(int*, int*, double*, double*, double*, double*, double*, double*, double*, double*, double*, double*, double*, double*, const double*, const double*, const double*)[m[K':
+[01m[K../nlopt-2.4.2/newuoa/newuoa.c:187:35:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+         0., 0., 0., xtol, 1000, 0.[01;35m[K)[m[K;
+                                   [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/util/nlopt-util.h:30:0[m[K,
+                 from [01m[K../nlopt-2.4.2/newuoa/newuoa.h:4[m[K,
+                 from [01m[K../nlopt-2.4.2/newuoa/newuoa.c:33[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:339:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(nlopt_result) [01;36m[Knlopt_minimize_constrained[m[K(
+                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K../nlopt-2.4.2/newuoa/newuoa.c:[m[K In function '[01m[Knlopt_result biglag_(int*, int*, double*, double*, double*, double*, int*, int*, int*, double*, double*, double*, double*, double*, double*, double*, double*, const double*, const double*, const double*)[m[K':
+[01m[K../nlopt-2.4.2/newuoa/newuoa.c:1244:35:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+         0., 0., 0., xtol, 1000, 0.[01;35m[K)[m[K;
+                                   [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/util/nlopt-util.h:30:0[m[K,
+                 from [01m[K../nlopt-2.4.2/newuoa/newuoa.h:4[m[K,
+                 from [01m[K../nlopt-2.4.2/newuoa/newuoa.c:33[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:339:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(nlopt_result) [01;36m[Knlopt_minimize_constrained[m[K(
+                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+[01m[K../nlopt-2.4.2/api/deprecated.c:[m[K In function '[01m[Knlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K':
+[01m[K../nlopt-2.4.2/api/deprecated.c:153:60:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize_econstrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, double, double, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+    xtol_rel, xtol_abs, ftol_rel, ftol_abs, maxeval, maxtime[01;35m[K)[m[K;
+                                                            [01;35m[K^[m[K
+[01m[K../nlopt-2.4.2/api/deprecated.c:65:15:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_STDCALL [01;36m[Knlopt_minimize_econstrained[m[K(
+               [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K../nlopt-2.4.2/api/deprecated.c:[m[K In function '[01m[Knlopt_result nlopt_minimize(nlopt_algorithm, int, nlopt_func_old, void*, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K':
+[01m[K../nlopt-2.4.2/api/deprecated.c:170:40:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+    xtol_rel, xtol_abs, maxeval, maxtime[01;35m[K)[m[K;
+                                        [01;35m[K^[m[K
+[01m[K../nlopt-2.4.2/api/deprecated.c:138:15:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_STDCALL [01;36m[Knlopt_minimize_constrained[m[K(
+               [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:103:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nloptc_(int*, const int*, const int*, nlopt_f77_func, void*, const int*, nlopt_f77_func, char*, char*, const double*, const double*, double*, double*, const double*, const double*, const double*, const double*, const double*, const int*, const int*, const double*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:65:24:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      *maxeval, *maxtime[01;35m[K)[m[K;
+                        [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:339:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(nlopt_result) [01;36m[Knlopt_minimize_constrained[m[K(
+                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:103:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlogls_(int*, int*, int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:96:65:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_get_local_search_algorithm(nlopt_algorithm*, nlopt_algorithm*, int*)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_get_local_search_algorithm(&deriv, &nonderiv, maxeval[01;35m[K)[m[K;
+                                                                 [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:363:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_get_local_search_algorithm[m[K(nlopt_algorithm *deriv,
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:103:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlosls_(int*, int*, int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:104:64:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_set_local_search_algorithm(nlopt_algorithm, nlopt_algorithm, int)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_set_local_search_algorithm(deriv, nonderiv, *maxeval[01;35m[K)[m[K;
+                                                                [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:366:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_set_local_search_algorithm[m[K(nlopt_algorithm deriv,
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:103:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlogsp_(int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:109:45:[m[K [01;35m[Kwarning: [m[K'[01m[Kint nlopt_get_stochastic_population()[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      *pop = nlopt_get_stochastic_population([01;35m[K)[m[K;
+                                             [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:370:19:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(int) [01;36m[Knlopt_get_stochastic_population[m[K(void) NLOPT_DEPRECATED;
+                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:103:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlossp_(const int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:113:42:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_set_stochastic_population(int)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_set_stochastic_population(*pop[01;35m[K)[m[K;
+                                          [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:371:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_set_stochastic_population[m[K(int pop) NLOPT_DEPRECATED;
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:114:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nloptc(int*, const int*, const int*, nlopt_f77_func, void*, const int*, nlopt_f77_func, char*, char*, const double*, const double*, double*, double*, const double*, const double*, const double*, const double*, const double*, const int*, const int*, const double*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:65:24:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      *maxeval, *maxtime[01;35m[K)[m[K;
+                        [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:339:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(nlopt_result) [01;36m[Knlopt_minimize_constrained[m[K(
+                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:114:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlogls(int*, int*, int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:96:65:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_get_local_search_algorithm(nlopt_algorithm*, nlopt_algorithm*, int*)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_get_local_search_algorithm(&deriv, &nonderiv, maxeval[01;35m[K)[m[K;
+                                                                 [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:363:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_get_local_search_algorithm[m[K(nlopt_algorithm *deriv,
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:114:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlosls(int*, int*, int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:104:64:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_set_local_search_algorithm(nlopt_algorithm, nlopt_algorithm, int)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_set_local_search_algorithm(deriv, nonderiv, *maxeval[01;35m[K)[m[K;
+                                                                [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:366:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_set_local_search_algorithm[m[K(nlopt_algorithm deriv,
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:114:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlogsp(int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:109:45:[m[K [01;35m[Kwarning: [m[K'[01m[Kint nlopt_get_stochastic_population()[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      *pop = nlopt_get_stochastic_population([01;35m[K)[m[K;
+                                             [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:370:19:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(int) [01;36m[Knlopt_get_stochastic_population[m[K(void) NLOPT_DEPRECATED;
+                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:114:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlossp(const int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:113:42:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_set_stochastic_population(int)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_set_stochastic_population(*pop[01;35m[K)[m[K;
+                                          [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:371:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_set_stochastic_population[m[K(int pop) NLOPT_DEPRECATED;
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:129:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid NLOPTC(int*, const int*, const int*, nlopt_f77_func, void*, const int*, nlopt_f77_func, char*, char*, const double*, const double*, double*, double*, const double*, const double*, const double*, const double*, const double*, const int*, const int*, const double*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:65:24:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      *maxeval, *maxtime[01;35m[K)[m[K;
+                        [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:339:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(nlopt_result) [01;36m[Knlopt_minimize_constrained[m[K(
+                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:129:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid NLOGLS(int*, int*, int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:96:65:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_get_local_search_algorithm(nlopt_algorithm*, nlopt_algorithm*, int*)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_get_local_search_algorithm(&deriv, &nonderiv, maxeval[01;35m[K)[m[K;
+                                                                 [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:363:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_get_local_search_algorithm[m[K(nlopt_algorithm *deriv,
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:129:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid NLOSLS(int*, int*, int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:104:64:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_set_local_search_algorithm(nlopt_algorithm, nlopt_algorithm, int)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_set_local_search_algorithm(deriv, nonderiv, *maxeval[01;35m[K)[m[K;
+                                                                [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:366:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_set_local_search_algorithm[m[K(nlopt_algorithm deriv,
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:129:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid NLOGSP(int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:109:45:[m[K [01;35m[Kwarning: [m[K'[01m[Kint nlopt_get_stochastic_population()[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      *pop = nlopt_get_stochastic_population([01;35m[K)[m[K;
+                                             [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:370:19:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(int) [01;36m[Knlopt_get_stochastic_population[m[K(void) NLOPT_DEPRECATED;
+                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:129:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid NLOSSP(const int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:113:42:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_set_stochastic_population(int)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_set_stochastic_population(*pop[01;35m[K)[m[K;
+                                          [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:371:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_set_stochastic_population[m[K(int pop) NLOPT_DEPRECATED;
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+[01m[K../nlopt-2.4.2/test/testopt.cpp:[m[K In function ‘[01m[Kint test_function(int)[m[K’:
+[01m[K../nlopt-2.4.2/test/testopt.cpp:223:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Knlopt_result nlopt_minimize(nlopt_algorithm, int, nlopt_func_old, void*, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     maxeval, maxtime[01;35m[K)[m[K;
+                     [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/test/testopt.cpp:44:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:329:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(nlopt_result) [01;36m[Knlopt_minimize[m[K(
+                            [01;36m[K^~~~~~~~~~~~~~[m[K
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+libtool: install: warning: remember to run `libtool --finish /home/rishabh/catkin_ws/install/lib'

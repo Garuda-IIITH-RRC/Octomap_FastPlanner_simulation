@@ -1,0 +1,24 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~max_sensor_range_" : \b [double] Data points farther away will be discarded min: 0.0, default: 15.0, max: 40.0
+- \b "~min_sensor_range_" : \b [double] Discard points closer than that min: 0.0, default: 0.2, max: 10.0
+- \b "~pitch_cost_param_" : \b [double] Cost function weight for goal oriented behavior min: 0.0, default: 25.0, max: 30.0
+- \b "~yaw_cost_param_" : \b [double] Cost function weight for constant heading min: 0.0, default: 3.0, max: 20.0
+- \b "~velocity_cost_param_" : \b [double] Cost function weight for path smoothness min: 0.0, default: 6000.0, max: 50000.0
+- \b "~obstacle_cost_param_" : \b [double] Approximate distance from obstacles (m) when the obstacle distance term dominates the cost function min: 0.0, default: 8.5, max: 30.0
+- \b "~tree_heuristic_weight_" : \b [double] Weight for the tree heuristic cost min: 0.0, default: 35.0, max: 50.0
+- \b "~goal_z_param" : \b [double] Height of the goal position min: -20.0, default: 3.5, max: 20.0
+- \b "~timeout_startup_" : \b [double] After this timeout the companion status is MAV_STATE_CRITICAL min: 0.0, default: 5.0, max: 60.0
+- \b "~timeout_critical_" : \b [double] After this timeout the companion status is MAV_STATE_CRITICAL min: 0.0, default: 0.5, max: 10.0
+- \b "~timeout_termination_" : \b [double] After this timeout the companion status is MAV_STATE_FLIGHT_TERMINATION min: 0.0, default: 15.0, max: 1000.0
+- \b "~max_point_age_s_" : \b [double] maximum age of a remembered data point min: 0.0, default: 20.0, max: 500.0
+- \b "~min_num_points_per_cell_" : \b [int] minimum number of points in one area to be kept, if lower they are discarded as noise min: 1, default: 1, max: 500
+- \b "~smoothing_speed_xy_" : \b [double] response speed of the smoothing system in xy (set to 0 to disable) min: 0.0, default: 10.0, max: 30.0
+- \b "~smoothing_speed_z_" : \b [double] response speed of the smoothing system in z (set to 0 to disable) min: 0.0, default: 3.0, max: 30.0
+- \b "~smoothing_margin_degrees_" : \b [double] smoothing radius for obstacle cost in cost histogram min: 0.0, default: 40.0, max: 90.0
+- \b "~children_per_node_" : \b [int] Branching factor of the search tree min: 0, default: 8, max: 100
+- \b "~n_expanded_nodes_" : \b [int] Number of nodes expanded in complete tree min: 0, default: 40, max: 200
+- \b "~tree_node_distance_" : \b [double] Distance between nodes min: 0.0, default: 2.0, max: 20.0
+

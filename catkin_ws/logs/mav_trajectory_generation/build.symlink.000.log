@@ -1,0 +1,5 @@
+Symlinking /home/rishabh/catkin_ws/devel/lib/libmav_trajectory_generation.so
+Symlinking /home/rishabh/catkin_ws/devel/lib/pkgconfig/mav_trajectory_generation.pc
+Symlinking /home/rishabh/catkin_ws/devel/lib/mav_trajectory_generation/polynomial_timing_evaluation
+Symlinking /home/rishabh/catkin_ws/devel/share/mav_trajectory_generation/cmake/mav_trajectory_generationConfig-version.cmake
+Symlinking /home/rishabh/catkin_ws/devel/share/mav_trajectory_generation/cmake/mav_trajectory_generationConfig.cmake

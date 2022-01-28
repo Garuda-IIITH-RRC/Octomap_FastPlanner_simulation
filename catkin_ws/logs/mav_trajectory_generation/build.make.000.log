@@ -1,0 +1,56 @@
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target mav_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_nodejs[0m
+[  0%] Built target mav_msgs_generate_messages_eus
+[  0%] Built target mav_msgs_generate_messages_cpp
+[  0%] Built target mav_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target mav_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target mav_trajectory_generation[0m
+[  8%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/motion_defines.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/polynomial.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/timing.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/segment.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/trajectory.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/trajectory_sampling.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/vertex.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/io.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/mav_trajectory_generation.dir/src/rpoly/rpoly_ak1.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library /home/rishabh/catkin_ws/devel/.private/mav_trajectory_generation/lib/libmav_trajectory_generation.so[0m
+[ 83%] Built target mav_trajectory_generation
+[35m[1mScanning dependencies of target polynomial_timing_evaluation[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/polynomial_timing_evaluation.dir/src/polynomial_timing_evaluation.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/mav_trajectory_generation/lib/mav_trajectory_generation/polynomial_timing_evaluation[0m
+[100%] Built target polynomial_timing_evaluation

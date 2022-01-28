@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/mybot/share/mybot/cmake/mybotConfig.cmake

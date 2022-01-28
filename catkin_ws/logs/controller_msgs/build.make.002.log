@@ -1,0 +1,22 @@
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target _controller_msgs_generate_messages_check_deps_FlatTarget
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[ 14%] Built target controller_msgs_generate_messages_nodejs
+[ 42%] Built target controller_msgs_generate_messages_eus
+[ 57%] Built target controller_msgs_generate_messages_lisp
+[ 71%] Built target controller_msgs_generate_messages_cpp
+[100%] Built target controller_msgs_generate_messages_py
+[100%] Built target controller_msgs_generate_messages

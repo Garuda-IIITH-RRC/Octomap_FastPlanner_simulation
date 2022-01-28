@@ -1,0 +1,3 @@
+[ 33%] Built target vrpn_client_ros
+[ 66%] Built target vrpn_client_node
+[100%] Built target vrpn_tracker_node

@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/rishabh/catkin_ws/build/libmavconn/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b016f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b016f.dir/build.make CMakeFiles/cmTC_b016f.dir/build
+make[1]: Entering directory '/home/rishabh/catkin_ws/build/libmavconn/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b016f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b016f.dir/CheckSymbolExists.c.o   -c /home/rishabh/catkin_ws/build/libmavconn/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b016f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b016f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b016f.dir/CheckSymbolExists.c.o  -o cmTC_b016f 
+CMakeFiles/cmTC_b016f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b016f.dir/build.make:97: recipe for target 'cmTC_b016f' failed
+make[1]: *** [cmTC_b016f] Error 1
+make[1]: Leaving directory '/home/rishabh/catkin_ws/build/libmavconn/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b016f/fast' failed
+make: *** [cmTC_b016f/fast] Error 2
+
+File /home/rishabh/catkin_ws/build/libmavconn/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/rishabh/catkin_ws/build/libmavconn/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2cae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2cae.dir/build.make CMakeFiles/cmTC_e2cae.dir/build
+make[1]: Entering directory '/home/rishabh/catkin_ws/build/libmavconn/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2cae.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e2cae.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e2cae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2cae.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e2cae.dir/CheckFunctionExists.c.o  -o cmTC_e2cae -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e2cae.dir/build.make:97: recipe for target 'cmTC_e2cae' failed
+make[1]: *** [cmTC_e2cae] Error 1
+make[1]: Leaving directory '/home/rishabh/catkin_ws/build/libmavconn/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e2cae/fast' failed
+make: *** [cmTC_e2cae/fast] Error 2
+
+

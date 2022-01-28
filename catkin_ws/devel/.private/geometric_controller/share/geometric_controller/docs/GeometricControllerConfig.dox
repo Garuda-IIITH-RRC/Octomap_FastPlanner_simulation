@@ -1,0 +1,12 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~max_acc" : \b [double] Max Feedback Acceleration min: 1.0, default: 7.0, max: 8.0
+- \b "~Kp_x" : \b [double] Proportional gain for X position error min: 0.1, default: 8.0, max: 20.0
+- \b "~Kp_y" : \b [double] Proportional gain for Y position error min: 0.1, default: 8.0, max: 20.0
+- \b "~Kp_z" : \b [double] Proportional gain for Z position error min: 0.1, default: 10.0, max: 20.0
+- \b "~Kv_x" : \b [double] Proportional gain for X velocity error min: 0.1, default: 1.5, max: 20.0
+- \b "~Kv_y" : \b [double] Proportional gain for Y velocity error min: 0.1, default: 1.5, max: 20.0
+- \b "~Kv_z" : \b [double] Proportional gain for Z velocity error min: 0.1, default: 3.3, max: 20.0
+

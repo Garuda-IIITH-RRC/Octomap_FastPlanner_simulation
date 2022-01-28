@@ -1,0 +1,17 @@
+- git:
+    local-name: mav_comm
+    uri: https://github.com/ethz-asl/mav_comm.git
+- git:
+    local-name: mav_trajectory_generation
+    uri: git@github.com:ethz-asl/mav_trajectory_generation.git
+- git:
+    local-name: mavlink
+    uri: https://github.com/mavlink/mavlink-gbp-release.git
+    version: release/melodic/mavlink/2020.12.12-1
+- git:
+    local-name: mavros
+    uri: https://github.com/mavlink/mavros.git
+    version: 1.5.0
+- git:
+    local-name: rotors_simulator
+    uri: https://github.com/ethz-asl/rotors_simulator.git

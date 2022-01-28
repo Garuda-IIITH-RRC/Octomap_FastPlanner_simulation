@@ -1,0 +1,17 @@
+\subsubsection usage Usage
+\verbatim
+<node name="safe_landing_planner" pkg="safe_landing_planner" type="safe_landing_planner">
+  <param name="n_points_threshold" type="double" value="100.0" />
+  <param name="std_dev_threshold" type="double" value="0.2" />
+  <param name="smoothing_size" type="int" value="5" />
+  <param name="mean_diff_thr" type="double" value="0.1" />
+  <param name="max_n_mean_diff_cells" type="int" value="70" />
+  <param name="min_n_land_cells" type="int" value="70" />
+  <param name="grid_size" type="double" value="10.0" />
+  <param name="cell_size" type="double" value="0.25" />
+  <param name="alpha" type="double" value="0.9" />
+  <param name="timeout_critical" type="double" value="0.5" />
+  <param name="timeout_termination" type="double" value="15.0" />
+</node>
+\endverbatim
+

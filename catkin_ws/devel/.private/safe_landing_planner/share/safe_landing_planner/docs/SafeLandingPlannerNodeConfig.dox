@@ -1,0 +1,16 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~n_points_threshold" : \b [double] Minimum number of points to be considered in a cell min: 0.0, default: 100.0, max: 5000.0
+- \b "~std_dev_threshold" : \b [double] Threshold on the cell variance to be considered for landing min: 0.0, default: 0.2, max: 1.0
+- \b "~smoothing_size" : \b [int] 2*smoothing_size+1 is the smoothing kernel size min: -1, default: 5, max: 100
+- \b "~mean_diff_thr" : \b [double] Threshold on the mean value difference between two cells min: 0.0, default: 0.1, max: 1.0
+- \b "~max_n_mean_diff_cells" : \b [int] Maxmum number of cells in the neighborhood that can be different more than mean_diff_thr min: 0, default: 70, max: 100
+- \b "~min_n_land_cells" : \b [int] Minimum cell number that need to be flat in the neighborhood min: 0, default: 70, max: 100
+- \b "~grid_size" : \b [double] Size of the square grid in meters  min: 1.0, default: 10.0, max: 20.0
+- \b "~cell_size" : \b [double] Size of the square cells in the grid in meters  min: 0.1, default: 0.25, max: 10.0
+- \b "~alpha" : \b [double] History parameter on mean/variance temporal smoothing min: 0.0, default: 0.9, max: 1.0
+- \b "~timeout_critical" : \b [double] After this timeout the companion status is MAV_STATE_CRITICAL min: 0.0, default: 0.5, max: 10.0
+- \b "~timeout_termination" : \b [double] After this timeout the companion status is MAV_STATE_FLIGHT_TERMINATION min: 0.0, default: 15.0, max: 1000.0
+

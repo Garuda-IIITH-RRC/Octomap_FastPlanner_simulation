@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/nlopt/share/nlopt/cmake/nloptConfig-version.cmake

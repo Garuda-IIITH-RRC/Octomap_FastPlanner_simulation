@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target vrpn_client_ros[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library /home/rishabh/catkin_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so[0m
+[ 33%] Built target vrpn_client_ros
+[35m[1mScanning dependencies of target vrpn_tracker_node[0m
+[35m[1mScanning dependencies of target vrpn_client_node[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/vrpn_tracker_node.dir/src/vrpn_tracker_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/vrpn_client_node.dir/src/vrpn_client_node.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/vrpn_client_ros/lib/vrpn_client_ros/vrpn_tracker_node[0m
+[100%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/vrpn_client_ros/lib/vrpn_client_ros/vrpn_client_node[0m
+[100%] Built target vrpn_tracker_node
+[100%] Built target vrpn_client_node

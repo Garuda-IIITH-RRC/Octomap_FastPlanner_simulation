@@ -1,0 +1,15 @@
+avoidance/local_planner
+/home/rishabh/catkin_ws/devel/.private/local_planner/cmake.lock /home/rishabh/catkin_ws/devel/./cmake.lock
+/home/rishabh/catkin_ws/devel/.private/local_planner/lib/liblocal_planner_nodelet.so /home/rishabh/catkin_ws/devel/lib/liblocal_planner_nodelet.so
+/home/rishabh/catkin_ws/devel/.private/local_planner/lib/liblocal_planner.so /home/rishabh/catkin_ws/devel/lib/liblocal_planner.so
+/home/rishabh/catkin_ws/devel/.private/local_planner/lib/local_planner/local_planner_node /home/rishabh/catkin_ws/devel/lib/local_planner/local_planner_node
+/home/rishabh/catkin_ws/devel/.private/local_planner/lib/pkgconfig/local_planner.pc /home/rishabh/catkin_ws/devel/lib/pkgconfig/local_planner.pc
+/home/rishabh/catkin_ws/devel/.private/local_planner/lib/python2.7/dist-packages/local_planner/__init__.py /home/rishabh/catkin_ws/devel/lib/python2.7/dist-packages/local_planner/__init__.py
+/home/rishabh/catkin_ws/devel/.private/local_planner/lib/python2.7/dist-packages/local_planner/cfg/__init__.py /home/rishabh/catkin_ws/devel/lib/python2.7/dist-packages/local_planner/cfg/__init__.py
+/home/rishabh/catkin_ws/devel/.private/local_planner/lib/python2.7/dist-packages/local_planner/cfg/LocalPlannerNodeConfig.py /home/rishabh/catkin_ws/devel/lib/python2.7/dist-packages/local_planner/cfg/LocalPlannerNodeConfig.py
+/home/rishabh/catkin_ws/devel/.private/local_planner/include/local_planner/LocalPlannerNodeConfig.h /home/rishabh/catkin_ws/devel/include/local_planner/LocalPlannerNodeConfig.h
+/home/rishabh/catkin_ws/devel/.private/local_planner/share/local_planner/cmake/local_plannerConfig-version.cmake /home/rishabh/catkin_ws/devel/share/local_planner/cmake/local_plannerConfig-version.cmake
+/home/rishabh/catkin_ws/devel/.private/local_planner/share/local_planner/cmake/local_plannerConfig.cmake /home/rishabh/catkin_ws/devel/share/local_planner/cmake/local_plannerConfig.cmake
+/home/rishabh/catkin_ws/devel/.private/local_planner/share/local_planner/docs/LocalPlannerNodeConfig-usage.dox /home/rishabh/catkin_ws/devel/share/local_planner/docs/LocalPlannerNodeConfig-usage.dox
+/home/rishabh/catkin_ws/devel/.private/local_planner/share/local_planner/docs/LocalPlannerNodeConfig.dox /home/rishabh/catkin_ws/devel/share/local_planner/docs/LocalPlannerNodeConfig.dox
+/home/rishabh/catkin_ws/devel/.private/local_planner/share/local_planner/docs/LocalPlannerNodeConfig.wikidoc /home/rishabh/catkin_ws/devel/share/local_planner/docs/LocalPlannerNodeConfig.wikidoc

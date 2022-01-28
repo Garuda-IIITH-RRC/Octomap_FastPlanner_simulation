@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/rishabh/catkin_ws/devel/.private/px4/lib/libmodules__load_mon.a  CMakeFiles/modules__load_mon.dir/LoadMon.cpp.o
+/usr/bin/ranlib /home/rishabh/catkin_ws/devel/.private/px4/lib/libmodules__load_mon.a

@@ -1,0 +1,17 @@
+[33m[1mCMake Warning[0m at /home/rishabh/catkin_ws/src/pangolin_catkin/CMakeLists.txt:28 (find_package):
+  By not providing "FindDepthSense.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "DepthSense", but CMake did not find one.
+
+  Could not find a package configuration file provided by "DepthSense" with
+  any of the following names:
+
+    DepthSenseConfig.cmake
+    depthsense-config.cmake
+
+  Add the installation prefix of "DepthSense" to CMAKE_PREFIX_PATH or set
+  "DepthSense_DIR" to a directory containing one of the above files.  If
+  "DepthSense" provides a separate development package or SDK, be sure it has
+  been installed.
+
+

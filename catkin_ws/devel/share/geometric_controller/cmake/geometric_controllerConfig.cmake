@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/geometric_controller/share/geometric_controller/cmake/geometric_controllerConfig.cmake

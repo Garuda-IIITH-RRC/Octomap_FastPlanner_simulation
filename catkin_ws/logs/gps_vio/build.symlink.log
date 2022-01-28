@@ -1,0 +1,5 @@
+Symlinking /home/rishabh/catkin_ws/devel/lib/libgps_vio_lib.so
+Symlinking /home/rishabh/catkin_ws/devel/lib/pkgconfig/gps_vio.pc
+Symlinking /home/rishabh/catkin_ws/devel/lib/gps_vio/GPSVIO_ros_node
+Symlinking /home/rishabh/catkin_ws/devel/share/gps_vio/cmake/gps_vioConfig-version.cmake
+Symlinking /home/rishabh/catkin_ws/devel/share/gps_vio/cmake/gps_vioConfig.cmake

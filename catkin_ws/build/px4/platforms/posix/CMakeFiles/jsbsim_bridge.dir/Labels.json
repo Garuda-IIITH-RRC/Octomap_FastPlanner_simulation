@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/rishabh/catkin_ws/build/px4/platforms/posix/CMakeFiles/jsbsim_bridge"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/px4/platforms/posix/CMakeFiles/jsbsim_bridge.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/px4/platforms/posix/CMakeFiles/jsbsim_bridge-complete.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/px4/external/Stamp/jsbsim_bridge/jsbsim_bridge-install.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/px4/external/Stamp/jsbsim_bridge/jsbsim_bridge-mkdir.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/px4/external/Stamp/jsbsim_bridge/jsbsim_bridge-download.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/px4/external/Stamp/jsbsim_bridge/jsbsim_bridge-update.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/px4/external/Stamp/jsbsim_bridge/jsbsim_bridge-patch.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/px4/external/Stamp/jsbsim_bridge/jsbsim_bridge-configure.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/px4/external/Stamp/jsbsim_bridge/jsbsim_bridge-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"jsbsim_bridge"
+		],
+		"name" : "jsbsim_bridge"
+	}
+}

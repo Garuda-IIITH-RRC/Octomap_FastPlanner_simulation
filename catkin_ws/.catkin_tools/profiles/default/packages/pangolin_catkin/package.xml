@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pangolin_catkin</name>
+  <version>0.1.0</version>
+  <description>
+    Catkin package for including pangolin in a catkin ws.
+  </description>
+  <maintainer email="code@werlberger.org">Manuel Werlberger</maintainer>
+  <license>see pangolin package</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+  
+  <depend>eigen_catkin</depend>
+</package>

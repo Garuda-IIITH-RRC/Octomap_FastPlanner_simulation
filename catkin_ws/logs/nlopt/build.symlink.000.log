@@ -1,0 +1,10 @@
+Symlinking /home/rishabh/catkin_ws/devel/lib/libnlopt_cxx.la
+Symlinking /home/rishabh/catkin_ws/devel/lib/libnlopt_cxx.a
+Symlinking /home/rishabh/catkin_ws/devel/lib/libnlopt_wrap.so
+Symlinking /home/rishabh/catkin_ws/devel/lib/pkgconfig/nlopt.pc
+Symlinking /home/rishabh/catkin_ws/devel/include/nlopt.h
+Symlinking /home/rishabh/catkin_ws/devel/include/nlopt.f
+Symlinking /home/rishabh/catkin_ws/devel/include/nlopt.hpp
+Symlinking /home/rishabh/catkin_ws/devel/share/nlopt/cmake/nloptConfig-version.cmake
+Symlinking /home/rishabh/catkin_ws/devel/share/nlopt/cmake/nloptConfig.cmake
+Symlinking /home/rishabh/catkin_ws/devel/share/man/man3/nlopt.3

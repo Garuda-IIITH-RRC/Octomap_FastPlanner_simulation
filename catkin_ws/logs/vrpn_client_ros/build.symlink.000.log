@@ -1,0 +1,6 @@
+Symlinking /home/rishabh/catkin_ws/devel/lib/libvrpn_client_ros.so
+Symlinking /home/rishabh/catkin_ws/devel/lib/pkgconfig/vrpn_client_ros.pc
+Symlinking /home/rishabh/catkin_ws/devel/lib/vrpn_client_ros/vrpn_client_node
+Symlinking /home/rishabh/catkin_ws/devel/lib/vrpn_client_ros/vrpn_tracker_node
+Symlinking /home/rishabh/catkin_ws/devel/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake
+Symlinking /home/rishabh/catkin_ws/devel/share/vrpn_client_ros/cmake/vrpn_client_rosConfig.cmake

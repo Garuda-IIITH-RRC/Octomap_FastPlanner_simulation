@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/eigen_catkin/lib/pkgconfig/eigen_catkin.pc

@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/mocap_optitrack/share/mocap_optitrack/cmake/mocap_optitrackConfig.cmake

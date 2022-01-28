@@ -1,0 +1,567 @@
+[35m[1mScanning dependencies of target nlopt_src[0m
+[ 10%] [34m[1mCreating directories for 'nlopt_src'[0m
+[ 20%] [34m[1mPerforming download step for 'nlopt_src'[0m
+--2021-02-23 12:38:24--  https://github.com/ethz-asl/thirdparty_library_binaries/raw/master/nlopt-2.4.2.tar.gz
+Resolving github.com (github.com)... 13.234.176.102
+Connecting to github.com (github.com)|13.234.176.102|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/ethz-asl/thirdparty_library_binaries/master/nlopt-2.4.2.tar.gz [following]
+--2021-02-23 12:38:25--  https://raw.githubusercontent.com/ethz-asl/thirdparty_library_binaries/master/nlopt-2.4.2.tar.gz
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2361992 (2.3M) [application/octet-stream]
+Saving to: ‘nlopt-2.4.2.tar.gz’
+
+nlopt-2.4.2.tar.gz    0%[                    ]       0  --.-KB/s               nlopt-2.4.2.tar.gz   23%[===>                ] 547.42K  2.58MB/s               nlopt-2.4.2.tar.gz   58%[==========>         ]   1.31M  3.19MB/s               nlopt-2.4.2.tar.gz  100%[===================>]   2.25M  3.72MB/s    in 0.6s    
+
+2021-02-23 12:38:27 (3.72 MB/s) - ‘nlopt-2.4.2.tar.gz’ saved [2361992/2361992]
+
+[ 40%] [34m[1mNo update step for 'nlopt_src'[0m
+[ 40%] [34m[1mPerforming patch step for 'nlopt_src'[0m
+[ 50%] [34m[1mPerforming configure step for 'nlopt_src'[0m
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for gcc option to accept ISO C99... none needed
+checking for gcc option to accept ISO Standard C... (cached) none needed
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for ANSI C header files... (cached) yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for unistd.h... (cached) yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for stdint.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for C thread-local keyword... __thread
+checking size of unsigned int... 4
+checking size of unsigned long... 8
+checking for uint32_t... yes
+checking for sin in -lm... yes
+checking for BSDgettimeofday... no
+checking for gettimeofday... yes
+checking for time... yes
+checking for qsort_r... yes
+checking for getpid... yes
+checking for gettid syscall... yes
+checking for isnan... yes
+checking for isinf... yes
+checking for copysign... yes
+configure: WARNING: Python and Guile wrappers require --enable-shared; disabling
+checking for mkoctfile... no
+configure: WARNING: can't find mkoctfile: won't be able to compile GNU Octave plugin
+checking for mex... no
+checking for working HUGE_VAL... ok
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating nlopt.pc
+config.status: creating api/Makefile
+config.status: creating util/Makefile
+config.status: creating octave/Makefile
+config.status: creating direct/Makefile
+config.status: creating cdirect/Makefile
+config.status: creating stogo/Makefile
+config.status: creating praxis/Makefile
+config.status: creating luksan/Makefile
+config.status: creating crs/Makefile
+config.status: creating mlsl/Makefile
+config.status: creating mma/Makefile
+config.status: creating cobyla/Makefile
+config.status: creating newuoa/Makefile
+config.status: creating neldermead/Makefile
+config.status: creating auglag/Makefile
+config.status: creating bobyqa/Makefile
+config.status: creating isres/Makefile
+config.status: creating slsqp/Makefile
+config.status: creating esch/Makefile
+config.status: creating test/Makefile
+config.status: creating swig/Makefile
+config.status: creating swig/nlopt.scm
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+[ 60%] [34m[1mPerforming build step for 'nlopt_src'[0m
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+Making all in util
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/util -I.. -I../nlopt-2.4.2/api -g -O2 -MT mt19937ar.lo -MD -MP -MF .deps/mt19937ar.Tpo -c ../nlopt-2.4.2/util/mt19937ar.c  -fPIC -DPIC -o mt19937ar.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/util -I.. -I../nlopt-2.4.2/api -g -O2 -MT sobolseq.lo -MD -MP -MF .deps/sobolseq.Tpo -c ../nlopt-2.4.2/util/sobolseq.c  -fPIC -DPIC -o sobolseq.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/util -I.. -I../nlopt-2.4.2/api -g -O2 -MT timer.lo -MD -MP -MF .deps/timer.Tpo -c ../nlopt-2.4.2/util/timer.c  -fPIC -DPIC -o timer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/util -I.. -I../nlopt-2.4.2/api -g -O2 -MT stop.lo -MD -MP -MF .deps/stop.Tpo -c ../nlopt-2.4.2/util/stop.c  -fPIC -DPIC -o stop.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/util -I.. -I../nlopt-2.4.2/api -g -O2 -MT redblack.lo -MD -MP -MF .deps/redblack.Tpo -c ../nlopt-2.4.2/util/redblack.c  -fPIC -DPIC -o redblack.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/util -I.. -I../nlopt-2.4.2/api -g -O2 -MT qsort_r.lo -MD -MP -MF .deps/qsort_r.Tpo -c ../nlopt-2.4.2/util/qsort_r.c  -fPIC -DPIC -o qsort_r.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/util -I.. -I../nlopt-2.4.2/api -g -O2 -MT rescale.lo -MD -MP -MF .deps/rescale.Tpo -c ../nlopt-2.4.2/util/rescale.c  -fPIC -DPIC -o rescale.o
+libtool: link: ar cru .libs/libutil.a  mt19937ar.o sobolseq.o timer.o stop.o redblack.o qsort_r.o rescale.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libutil.a
+libtool: link: ( cd ".libs" && rm -f "libutil.la" && ln -s "../libutil.la" "libutil.la" )
+libtool: link: g++ -g -O2 -o redblack_test redblack_test.o  ./.libs/libutil.a -lm
+Making all in direct
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/direct -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT DIRect.lo -MD -MP -MF .deps/DIRect.Tpo -c ../nlopt-2.4.2/direct/DIRect.c  -fPIC -DPIC -o DIRect.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/direct -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT direct_wrap.lo -MD -MP -MF .deps/direct_wrap.Tpo -c ../nlopt-2.4.2/direct/direct_wrap.c  -fPIC -DPIC -o direct_wrap.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/direct -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT DIRserial.lo -MD -MP -MF .deps/DIRserial.Tpo -c ../nlopt-2.4.2/direct/DIRserial.c  -fPIC -DPIC -o DIRserial.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/direct -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT DIRsubrout.lo -MD -MP -MF .deps/DIRsubrout.Tpo -c ../nlopt-2.4.2/direct/DIRsubrout.c  -fPIC -DPIC -o DIRsubrout.o
+libtool: link: ar cru .libs/libdirect.a  DIRect.o direct_wrap.o DIRserial.o DIRsubrout.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libdirect.a
+libtool: link: ( cd ".libs" && rm -f "libdirect.la" && ln -s "../libdirect.la" "libdirect.la" )
+Making all in cdirect
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/cdirect -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT cdirect.lo -MD -MP -MF .deps/cdirect.Tpo -c ../nlopt-2.4.2/cdirect/cdirect.c  -fPIC -DPIC -o cdirect.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/cdirect -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT hybrid.lo -MD -MP -MF .deps/hybrid.Tpo -c ../nlopt-2.4.2/cdirect/hybrid.c  -fPIC -DPIC -o hybrid.o
+[01m[K../nlopt-2.4.2/cdirect/hybrid.c:[m[K In function '[01m[Knlopt_result optimize_rect(double*, params*)[m[K':
+[01m[K../nlopt-2.4.2/cdirect/hybrid.c:99:39:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize(nlopt_algorithm, int, nlopt_func_old, void*, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      stop->maxtime - (t - stop->start)[01;35m[K)[m[K;
+                                       [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/util/nlopt-util.h:30:0[m[K,
+                 from [01m[K../nlopt-2.4.2/cdirect/hybrid.c:27[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:329:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(nlopt_result) [01;36m[Knlopt_minimize[m[K(
+                            [01;36m[K^~~~~~~~~~~~~~[m[K
+libtool: link: ar cru .libs/libcdirect.a  cdirect.o hybrid.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libcdirect.a
+libtool: link: ( cd ".libs" && rm -f "libcdirect.la" && ln -s "../libcdirect.la" "libcdirect.la" )
+Making all in stogo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/stogo -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT global.lo -MD -MP -MF .deps/global.Tpo -c ../nlopt-2.4.2/stogo/global.cc  -fPIC -DPIC -o global.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/stogo -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT linalg.lo -MD -MP -MF .deps/linalg.Tpo -c ../nlopt-2.4.2/stogo/linalg.cc  -fPIC -DPIC -o linalg.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/stogo -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT local.lo -MD -MP -MF .deps/local.Tpo -c ../nlopt-2.4.2/stogo/local.cc  -fPIC -DPIC -o local.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/stogo -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT stogo.lo -MD -MP -MF .deps/stogo.Tpo -c ../nlopt-2.4.2/stogo/stogo.cc  -fPIC -DPIC -o stogo.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/stogo -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT tools.lo -MD -MP -MF .deps/tools.Tpo -c ../nlopt-2.4.2/stogo/tools.cc  -fPIC -DPIC -o tools.o
+libtool: link: ar cru .libs/libstogo.a  global.o linalg.o local.o stogo.o tools.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libstogo.a
+libtool: link: ( cd ".libs" && rm -f "libstogo.la" && ln -s "../libstogo.la" "libstogo.la" )
+Making all in praxis
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/praxis -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT praxis.lo -MD -MP -MF .deps/praxis.Tpo -c ../nlopt-2.4.2/praxis/praxis.c  -fPIC -DPIC -o praxis.o
+libtool: link: ar cru .libs/libpraxis.a  praxis.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libpraxis.a
+libtool: link: ( cd ".libs" && rm -f "libpraxis.la" && ln -s "../libpraxis.la" "libpraxis.la" )
+Making all in luksan
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/luksan -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT plis.lo -MD -MP -MF .deps/plis.Tpo -c ../nlopt-2.4.2/luksan/plis.c  -fPIC -DPIC -o plis.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/luksan -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT plip.lo -MD -MP -MF .deps/plip.Tpo -c ../nlopt-2.4.2/luksan/plip.c  -fPIC -DPIC -o plip.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/luksan -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT pnet.lo -MD -MP -MF .deps/pnet.Tpo -c ../nlopt-2.4.2/luksan/pnet.c  -fPIC -DPIC -o pnet.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/luksan -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT mssubs.lo -MD -MP -MF .deps/mssubs.Tpo -c ../nlopt-2.4.2/luksan/mssubs.c  -fPIC -DPIC -o mssubs.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/luksan -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT pssubs.lo -MD -MP -MF .deps/pssubs.Tpo -c ../nlopt-2.4.2/luksan/pssubs.c  -fPIC -DPIC -o pssubs.o
+libtool: link: ar cru .libs/libluksan.a  plis.o plip.o pnet.o mssubs.o pssubs.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libluksan.a
+libtool: link: ( cd ".libs" && rm -f "libluksan.la" && ln -s "../libluksan.la" "libluksan.la" )
+Making all in crs
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/crs -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT crs.lo -MD -MP -MF .deps/crs.Tpo -c ../nlopt-2.4.2/crs/crs.c  -fPIC -DPIC -o crs.o
+libtool: link: ar cru .libs/libcrs.a  crs.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libcrs.a
+libtool: link: ( cd ".libs" && rm -f "libcrs.la" && ln -s "../libcrs.la" "libcrs.la" )
+Making all in mlsl
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/mlsl -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT mlsl.lo -MD -MP -MF .deps/mlsl.Tpo -c ../nlopt-2.4.2/mlsl/mlsl.c  -fPIC -DPIC -o mlsl.o
+libtool: link: ar cru .libs/libmlsl.a  mlsl.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libmlsl.a
+libtool: link: ( cd ".libs" && rm -f "libmlsl.la" && ln -s "../libmlsl.la" "libmlsl.la" )
+Making all in mma
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/mma -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT mma.lo -MD -MP -MF .deps/mma.Tpo -c ../nlopt-2.4.2/mma/mma.c  -fPIC -DPIC -o mma.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/mma -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT ccsa_quadratic.lo -MD -MP -MF .deps/ccsa_quadratic.Tpo -c ../nlopt-2.4.2/mma/ccsa_quadratic.c  -fPIC -DPIC -o ccsa_quadratic.o
+libtool: link: ar cru .libs/libmma.a  mma.o ccsa_quadratic.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libmma.a
+libtool: link: ( cd ".libs" && rm -f "libmma.la" && ln -s "../libmma.la" "libmma.la" )
+Making all in cobyla
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/cobyla -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT cobyla.lo -MD -MP -MF .deps/cobyla.Tpo -c ../nlopt-2.4.2/cobyla/cobyla.c  -fPIC -DPIC -o cobyla.o
+libtool: link: ar cru .libs/libcobyla.a  cobyla.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libcobyla.a
+libtool: link: ( cd ".libs" && rm -f "libcobyla.la" && ln -s "../libcobyla.la" "libcobyla.la" )
+Making all in newuoa
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/newuoa -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT newuoa.lo -MD -MP -MF .deps/newuoa.Tpo -c ../nlopt-2.4.2/newuoa/newuoa.c  -fPIC -DPIC -o newuoa.o
+[01m[K../nlopt-2.4.2/newuoa/newuoa.c:[m[K In function '[01m[Knlopt_result trsapp_(int*, int*, double*, double*, double*, double*, double*, double*, double*, double*, double*, double*, double*, double*, const double*, const double*, const double*)[m[K':
+[01m[K../nlopt-2.4.2/newuoa/newuoa.c:187:35:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+         0., 0., 0., xtol, 1000, 0.[01;35m[K)[m[K;
+                                   [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/util/nlopt-util.h:30:0[m[K,
+                 from [01m[K../nlopt-2.4.2/newuoa/newuoa.h:4[m[K,
+                 from [01m[K../nlopt-2.4.2/newuoa/newuoa.c:33[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:339:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(nlopt_result) [01;36m[Knlopt_minimize_constrained[m[K(
+                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K../nlopt-2.4.2/newuoa/newuoa.c:[m[K In function '[01m[Knlopt_result biglag_(int*, int*, double*, double*, double*, double*, int*, int*, int*, double*, double*, double*, double*, double*, double*, double*, double*, const double*, const double*, const double*)[m[K':
+[01m[K../nlopt-2.4.2/newuoa/newuoa.c:1244:35:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+         0., 0., 0., xtol, 1000, 0.[01;35m[K)[m[K;
+                                   [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/util/nlopt-util.h:30:0[m[K,
+                 from [01m[K../nlopt-2.4.2/newuoa/newuoa.h:4[m[K,
+                 from [01m[K../nlopt-2.4.2/newuoa/newuoa.c:33[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:339:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(nlopt_result) [01;36m[Knlopt_minimize_constrained[m[K(
+                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+libtool: link: ar cru .libs/libnewuoa.a  newuoa.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libnewuoa.a
+libtool: link: ( cd ".libs" && rm -f "libnewuoa.la" && ln -s "../libnewuoa.la" "libnewuoa.la" )
+Making all in neldermead
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/neldermead -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT nldrmd.lo -MD -MP -MF .deps/nldrmd.Tpo -c ../nlopt-2.4.2/neldermead/nldrmd.c  -fPIC -DPIC -o nldrmd.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/neldermead -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT sbplx.lo -MD -MP -MF .deps/sbplx.Tpo -c ../nlopt-2.4.2/neldermead/sbplx.c  -fPIC -DPIC -o sbplx.o
+libtool: link: ar cru .libs/libneldermead.a  nldrmd.o sbplx.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libneldermead.a
+libtool: link: ( cd ".libs" && rm -f "libneldermead.la" && ln -s "../libneldermead.la" "libneldermead.la" )
+Making all in auglag
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/auglag -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT auglag.lo -MD -MP -MF .deps/auglag.Tpo -c ../nlopt-2.4.2/auglag/auglag.c  -fPIC -DPIC -o auglag.o
+libtool: link: ar cru .libs/libauglag.a  auglag.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libauglag.a
+libtool: link: ( cd ".libs" && rm -f "libauglag.la" && ln -s "../libauglag.la" "libauglag.la" )
+Making all in bobyqa
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/bobyqa -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT bobyqa.lo -MD -MP -MF .deps/bobyqa.Tpo -c ../nlopt-2.4.2/bobyqa/bobyqa.c  -fPIC -DPIC -o bobyqa.o
+libtool: link: ar cru .libs/libbobyqa.a  bobyqa.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libbobyqa.a
+libtool: link: ( cd ".libs" && rm -f "libbobyqa.la" && ln -s "../libbobyqa.la" "libbobyqa.la" )
+Making all in isres
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/isres -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT isres.lo -MD -MP -MF .deps/isres.Tpo -c ../nlopt-2.4.2/isres/isres.c  -fPIC -DPIC -o isres.o
+libtool: link: ar cru .libs/libisres.a  isres.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libisres.a
+libtool: link: ( cd ".libs" && rm -f "libisres.la" && ln -s "../libisres.la" "libisres.la" )
+Making all in slsqp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/slsqp -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT slsqp.lo -MD -MP -MF .deps/slsqp.Tpo -c ../nlopt-2.4.2/slsqp/slsqp.c  -fPIC -DPIC -o slsqp.o
+libtool: link: ar cru .libs/libslsqp.a  slsqp.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libslsqp.a
+libtool: link: ( cd ".libs" && rm -f "libslsqp.la" && ln -s "../libslsqp.la" "libslsqp.la" )
+Making all in esch
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/esch -I.. -I../nlopt-2.4.2/util -I../nlopt-2.4.2/api -g -O2 -MT esch.lo -MD -MP -MF .deps/esch.Tpo -c ../nlopt-2.4.2/esch/esch.c  -fPIC -DPIC -o esch.o
+libtool: link: ar cru .libs/libesch.a  esch.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libesch.a
+libtool: link: ( cd ".libs" && rm -f "libesch.la" && ln -s "../libesch.la" "libesch.la" )
+Making all in api
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/api -I.. -I../nlopt-2.4.2/cdirect -I../nlopt-2.4.2/direct -I../nlopt-2.4.2/stogo -I../nlopt-2.4.2/praxis -I../nlopt-2.4.2/lbfgs -I../nlopt-2.4.2/luksan -I../nlopt-2.4.2/crs -I../nlopt-2.4.2/mlsl -I../nlopt-2.4.2/mma -I../nlopt-2.4.2/cobyla -I../nlopt-2.4.2/newuoa -I../nlopt-2.4.2/neldermead -I../nlopt-2.4.2/auglag -I../nlopt-2.4.2/bobyqa -I../nlopt-2.4.2/isres -I../nlopt-2.4.2/slsqp -I../nlopt-2.4.2/esch -I../nlopt-2.4.2/util -g -O2 -MT general.lo -MD -MP -MF .deps/general.Tpo -c ../nlopt-2.4.2/api/general.c  -fPIC -DPIC -o general.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/api -I.. -I../nlopt-2.4.2/cdirect -I../nlopt-2.4.2/direct -I../nlopt-2.4.2/stogo -I../nlopt-2.4.2/praxis -I../nlopt-2.4.2/lbfgs -I../nlopt-2.4.2/luksan -I../nlopt-2.4.2/crs -I../nlopt-2.4.2/mlsl -I../nlopt-2.4.2/mma -I../nlopt-2.4.2/cobyla -I../nlopt-2.4.2/newuoa -I../nlopt-2.4.2/neldermead -I../nlopt-2.4.2/auglag -I../nlopt-2.4.2/bobyqa -I../nlopt-2.4.2/isres -I../nlopt-2.4.2/slsqp -I../nlopt-2.4.2/esch -I../nlopt-2.4.2/util -g -O2 -MT options.lo -MD -MP -MF .deps/options.Tpo -c ../nlopt-2.4.2/api/options.c  -fPIC -DPIC -o options.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/api -I.. -I../nlopt-2.4.2/cdirect -I../nlopt-2.4.2/direct -I../nlopt-2.4.2/stogo -I../nlopt-2.4.2/praxis -I../nlopt-2.4.2/lbfgs -I../nlopt-2.4.2/luksan -I../nlopt-2.4.2/crs -I../nlopt-2.4.2/mlsl -I../nlopt-2.4.2/mma -I../nlopt-2.4.2/cobyla -I../nlopt-2.4.2/newuoa -I../nlopt-2.4.2/neldermead -I../nlopt-2.4.2/auglag -I../nlopt-2.4.2/bobyqa -I../nlopt-2.4.2/isres -I../nlopt-2.4.2/slsqp -I../nlopt-2.4.2/esch -I../nlopt-2.4.2/util -g -O2 -MT optimize.lo -MD -MP -MF .deps/optimize.Tpo -c ../nlopt-2.4.2/api/optimize.c  -fPIC -DPIC -o optimize.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/api -I.. -I../nlopt-2.4.2/cdirect -I../nlopt-2.4.2/direct -I../nlopt-2.4.2/stogo -I../nlopt-2.4.2/praxis -I../nlopt-2.4.2/lbfgs -I../nlopt-2.4.2/luksan -I../nlopt-2.4.2/crs -I../nlopt-2.4.2/mlsl -I../nlopt-2.4.2/mma -I../nlopt-2.4.2/cobyla -I../nlopt-2.4.2/newuoa -I../nlopt-2.4.2/neldermead -I../nlopt-2.4.2/auglag -I../nlopt-2.4.2/bobyqa -I../nlopt-2.4.2/isres -I../nlopt-2.4.2/slsqp -I../nlopt-2.4.2/esch -I../nlopt-2.4.2/util -g -O2 -MT deprecated.lo -MD -MP -MF .deps/deprecated.Tpo -c ../nlopt-2.4.2/api/deprecated.c  -fPIC -DPIC -o deprecated.o
+[01m[K../nlopt-2.4.2/api/deprecated.c:[m[K In function '[01m[Knlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K':
+[01m[K../nlopt-2.4.2/api/deprecated.c:153:60:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize_econstrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, double, double, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+    xtol_rel, xtol_abs, ftol_rel, ftol_abs, maxeval, maxtime[01;35m[K)[m[K;
+                                                            [01;35m[K^[m[K
+[01m[K../nlopt-2.4.2/api/deprecated.c:65:15:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_STDCALL [01;36m[Knlopt_minimize_econstrained[m[K(
+               [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K../nlopt-2.4.2/api/deprecated.c:[m[K In function '[01m[Knlopt_result nlopt_minimize(nlopt_algorithm, int, nlopt_func_old, void*, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K':
+[01m[K../nlopt-2.4.2/api/deprecated.c:170:40:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+    xtol_rel, xtol_abs, maxeval, maxtime[01;35m[K)[m[K;
+                                        [01;35m[K^[m[K
+[01m[K../nlopt-2.4.2/api/deprecated.c:138:15:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_STDCALL [01;36m[Knlopt_minimize_constrained[m[K(
+               [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../nlopt-2.4.2/api -I.. -I../nlopt-2.4.2/cdirect -I../nlopt-2.4.2/direct -I../nlopt-2.4.2/stogo -I../nlopt-2.4.2/praxis -I../nlopt-2.4.2/lbfgs -I../nlopt-2.4.2/luksan -I../nlopt-2.4.2/crs -I../nlopt-2.4.2/mlsl -I../nlopt-2.4.2/mma -I../nlopt-2.4.2/cobyla -I../nlopt-2.4.2/newuoa -I../nlopt-2.4.2/neldermead -I../nlopt-2.4.2/auglag -I../nlopt-2.4.2/bobyqa -I../nlopt-2.4.2/isres -I../nlopt-2.4.2/slsqp -I../nlopt-2.4.2/esch -I../nlopt-2.4.2/util -g -O2 -MT f77api.lo -MD -MP -MF .deps/f77api.Tpo -c ../nlopt-2.4.2/api/f77api.c  -fPIC -DPIC -o f77api.o
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:103:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nloptc_(int*, const int*, const int*, nlopt_f77_func, void*, const int*, nlopt_f77_func, char*, char*, const double*, const double*, double*, double*, const double*, const double*, const double*, const double*, const double*, const int*, const int*, const double*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:65:24:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      *maxeval, *maxtime[01;35m[K)[m[K;
+                        [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:339:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(nlopt_result) [01;36m[Knlopt_minimize_constrained[m[K(
+                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:103:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlogls_(int*, int*, int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:96:65:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_get_local_search_algorithm(nlopt_algorithm*, nlopt_algorithm*, int*)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_get_local_search_algorithm(&deriv, &nonderiv, maxeval[01;35m[K)[m[K;
+                                                                 [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:363:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_get_local_search_algorithm[m[K(nlopt_algorithm *deriv,
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:103:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlosls_(int*, int*, int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:104:64:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_set_local_search_algorithm(nlopt_algorithm, nlopt_algorithm, int)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_set_local_search_algorithm(deriv, nonderiv, *maxeval[01;35m[K)[m[K;
+                                                                [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:366:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_set_local_search_algorithm[m[K(nlopt_algorithm deriv,
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:103:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlogsp_(int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:109:45:[m[K [01;35m[Kwarning: [m[K'[01m[Kint nlopt_get_stochastic_population()[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      *pop = nlopt_get_stochastic_population([01;35m[K)[m[K;
+                                             [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:370:19:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(int) [01;36m[Knlopt_get_stochastic_population[m[K(void) NLOPT_DEPRECATED;
+                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:103:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlossp_(const int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:113:42:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_set_stochastic_population(int)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_set_stochastic_population(*pop[01;35m[K)[m[K;
+                                          [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:371:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_set_stochastic_population[m[K(int pop) NLOPT_DEPRECATED;
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:114:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nloptc(int*, const int*, const int*, nlopt_f77_func, void*, const int*, nlopt_f77_func, char*, char*, const double*, const double*, double*, double*, const double*, const double*, const double*, const double*, const double*, const int*, const int*, const double*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:65:24:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      *maxeval, *maxtime[01;35m[K)[m[K;
+                        [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:339:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(nlopt_result) [01;36m[Knlopt_minimize_constrained[m[K(
+                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:114:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlogls(int*, int*, int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:96:65:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_get_local_search_algorithm(nlopt_algorithm*, nlopt_algorithm*, int*)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_get_local_search_algorithm(&deriv, &nonderiv, maxeval[01;35m[K)[m[K;
+                                                                 [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:363:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_get_local_search_algorithm[m[K(nlopt_algorithm *deriv,
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:114:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlosls(int*, int*, int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:104:64:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_set_local_search_algorithm(nlopt_algorithm, nlopt_algorithm, int)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_set_local_search_algorithm(deriv, nonderiv, *maxeval[01;35m[K)[m[K;
+                                                                [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:366:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_set_local_search_algorithm[m[K(nlopt_algorithm deriv,
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:114:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlogsp(int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:109:45:[m[K [01;35m[Kwarning: [m[K'[01m[Kint nlopt_get_stochastic_population()[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      *pop = nlopt_get_stochastic_population([01;35m[K)[m[K;
+                                             [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:370:19:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(int) [01;36m[Knlopt_get_stochastic_population[m[K(void) NLOPT_DEPRECATED;
+                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:114:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid nlossp(const int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:113:42:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_set_stochastic_population(int)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_set_stochastic_population(*pop[01;35m[K)[m[K;
+                                          [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:371:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_set_stochastic_population[m[K(int pop) NLOPT_DEPRECATED;
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:129:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid NLOPTC(int*, const int*, const int*, nlopt_f77_func, void*, const int*, nlopt_f77_func, char*, char*, const double*, const double*, double*, double*, const double*, const double*, const double*, const double*, const double*, const int*, const int*, const double*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:65:24:[m[K [01;35m[Kwarning: [m[K'[01m[Knlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      *maxeval, *maxtime[01;35m[K)[m[K;
+                        [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:339:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(nlopt_result) [01;36m[Knlopt_minimize_constrained[m[K(
+                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:129:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid NLOGLS(int*, int*, int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:96:65:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_get_local_search_algorithm(nlopt_algorithm*, nlopt_algorithm*, int*)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_get_local_search_algorithm(&deriv, &nonderiv, maxeval[01;35m[K)[m[K;
+                                                                 [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:363:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_get_local_search_algorithm[m[K(nlopt_algorithm *deriv,
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:129:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid NLOSLS(int*, int*, int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:104:64:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_set_local_search_algorithm(nlopt_algorithm, nlopt_algorithm, int)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_set_local_search_algorithm(deriv, nonderiv, *maxeval[01;35m[K)[m[K;
+                                                                [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:366:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_set_local_search_algorithm[m[K(nlopt_algorithm deriv,
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:129:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid NLOGSP(int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:109:45:[m[K [01;35m[Kwarning: [m[K'[01m[Kint nlopt_get_stochastic_population()[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      *pop = nlopt_get_stochastic_population([01;35m[K)[m[K;
+                                             [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:370:19:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(int) [01;36m[Knlopt_get_stochastic_population[m[K(void) NLOPT_DEPRECATED;
+                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:129:0[m[K:
+[01m[K../nlopt-2.4.2/api/f77funcs.h:[m[K In function '[01m[Kvoid NLOSSP(const int*)[m[K':
+[01m[K../nlopt-2.4.2/api/f77funcs.h:113:42:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid nlopt_set_stochastic_population(int)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+      nlopt_set_stochastic_population(*pop[01;35m[K)[m[K;
+                                          [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/api/f77api.c:26:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:371:20:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(void) [01;36m[Knlopt_set_stochastic_population[m[K(int pop) NLOPT_DEPRECATED;
+                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+libtool: link: ar cru .libs/libapi.a  general.o options.o optimize.o deprecated.o f77api.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libapi.a
+libtool: link: ( cd ".libs" && rm -f "libapi.la" && ln -s "../libapi.la" "libapi.la" )
+Making all in .
+libtool: link: (cd .libs/libnlopt_cxx.lax/libdirect.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/direct/.libs/libdirect.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libcdirect.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/cdirect/.libs/libcdirect.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libstogo.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/stogo/.libs/libstogo.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libpraxis.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/praxis/.libs/libpraxis.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libluksan.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/luksan/.libs/libluksan.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libcrs.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/crs/.libs/libcrs.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libmlsl.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/mlsl/.libs/libmlsl.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libmma.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/mma/.libs/libmma.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libcobyla.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/cobyla/.libs/libcobyla.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libnewuoa.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/newuoa/.libs/libnewuoa.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libneldermead.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/neldermead/.libs/libneldermead.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libauglag.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/auglag/.libs/libauglag.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libbobyqa.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/bobyqa/.libs/libbobyqa.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libisres.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/isres/.libs/libisres.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libslsqp.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/slsqp/.libs/libslsqp.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libesch.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/esch/.libs/libesch.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libapi.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/api/.libs/libapi.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libutil.a && ar x "/home/rishabh/catkin_ws/build/nlopt/nlopt_src-prefix/src/nlopt_src-build/util/.libs/libutil.a")
+libtool: link: ar cru .libs/libnlopt_cxx.a   .libs/libnlopt_cxx.lax/libdirect.a/DIRect.o .libs/libnlopt_cxx.lax/libdirect.a/DIRserial.o .libs/libnlopt_cxx.lax/libdirect.a/DIRsubrout.o .libs/libnlopt_cxx.lax/libdirect.a/direct_wrap.o  .libs/libnlopt_cxx.lax/libcdirect.a/cdirect.o .libs/libnlopt_cxx.lax/libcdirect.a/hybrid.o  .libs/libnlopt_cxx.lax/libstogo.a/global.o .libs/libnlopt_cxx.lax/libstogo.a/linalg.o .libs/libnlopt_cxx.lax/libstogo.a/local.o .libs/libnlopt_cxx.lax/libstogo.a/stogo.o .libs/libnlopt_cxx.lax/libstogo.a/tools.o  .libs/libnlopt_cxx.lax/libpraxis.a/praxis.o  .libs/libnlopt_cxx.lax/libluksan.a/mssubs.o .libs/libnlopt_cxx.lax/libluksan.a/plip.o .libs/libnlopt_cxx.lax/libluksan.a/plis.o .libs/libnlopt_cxx.lax/libluksan.a/pnet.o .libs/libnlopt_cxx.lax/libluksan.a/pssubs.o  .libs/libnlopt_cxx.lax/libcrs.a/crs.o  .libs/libnlopt_cxx.lax/libmlsl.a/mlsl.o  .libs/libnlopt_cxx.lax/libmma.a/ccsa_quadratic.o .libs/libnlopt_cxx.lax/libmma.a/mma.o  .libs/libnlopt_cxx.lax/libcobyla.a/cobyla.o  .libs/libnlopt_cxx.lax/libnewuoa.a/newuoa.o  .libs/libnlopt_cxx.lax/libneldermead.a/nldrmd.o .libs/libnlopt_cxx.lax/libneldermead.a/sbplx.o  .libs/libnlopt_cxx.lax/libauglag.a/auglag.o  .libs/libnlopt_cxx.lax/libbobyqa.a/bobyqa.o  .libs/libnlopt_cxx.lax/libisres.a/isres.o  .libs/libnlopt_cxx.lax/libslsqp.a/slsqp.o  .libs/libnlopt_cxx.lax/libesch.a/esch.o  .libs/libnlopt_cxx.lax/libapi.a/deprecated.o .libs/libnlopt_cxx.lax/libapi.a/f77api.o .libs/libnlopt_cxx.lax/libapi.a/general.o .libs/libnlopt_cxx.lax/libapi.a/optimize.o .libs/libnlopt_cxx.lax/libapi.a/options.o  .libs/libnlopt_cxx.lax/libutil.a/mt19937ar.o .libs/libnlopt_cxx.lax/libutil.a/qsort_r.o .libs/libnlopt_cxx.lax/libutil.a/redblack.o .libs/libnlopt_cxx.lax/libutil.a/rescale.o .libs/libnlopt_cxx.lax/libutil.a/sobolseq.o .libs/libnlopt_cxx.lax/libutil.a/stop.o .libs/libnlopt_cxx.lax/libutil.a/timer.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libnlopt_cxx.a
+libtool: link: rm -fr .libs/libnlopt_cxx.lax
+libtool: link: ( cd ".libs" && rm -f "libnlopt_cxx.la" && ln -s "../libnlopt_cxx.la" "libnlopt_cxx.la" )
+Making all in octave
+libtool: link: g++ -g -O2 -o dummy dummy.o  -lm
+Making all in test
+[01m[K../nlopt-2.4.2/test/testopt.cpp:[m[K In function ‘[01m[Kint test_function(int)[m[K’:
+[01m[K../nlopt-2.4.2/test/testopt.cpp:223:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Knlopt_result nlopt_minimize(nlopt_algorithm, int, nlopt_func_old, void*, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     maxeval, maxtime[01;35m[K)[m[K;
+                     [01;35m[K^[m[K
+In file included from [01m[K../nlopt-2.4.2/test/testopt.cpp:44:0[m[K:
+[01m[K../nlopt-2.4.2/api/nlopt.h:329:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ NLOPT_EXTERN(nlopt_result) [01;36m[Knlopt_minimize[m[K(
+                            [01;36m[K^~~~~~~~~~~~~~[m[K
+libtool: link: g++ -g -O2 -o testopt testfuncs.o testopt.o  ../.libs/libnlopt_cxx.a -lm
+Making all in swig
+[ 70%] [34m[1mPerforming install step for 'nlopt_src'[0m
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+Making install in util
+Making install in direct
+Making install in cdirect
+Making install in stogo
+Making install in praxis
+Making install in luksan
+Making install in crs
+Making install in mlsl
+Making install in mma
+Making install in cobyla
+Making install in newuoa
+Making install in neldermead
+Making install in auglag
+Making install in bobyqa
+Making install in isres
+Making install in slsqp
+Making install in esch
+Making install in api
+ /bin/mkdir -p '/home/rishabh/catkin_ws/build/nlopt/nlopt_install/home/rishabh/catkin_ws/install/include'
+ /usr/bin/install -c -m 644 ../nlopt-2.4.2/api/nlopt.h ../nlopt-2.4.2/api/nlopt.f ../nlopt-2.4.2/api/nlopt.hpp '/home/rishabh/catkin_ws/build/nlopt/nlopt_install/home/rishabh/catkin_ws/install/include'
+ /bin/mkdir -p '/home/rishabh/catkin_ws/build/nlopt/nlopt_install/home/rishabh/catkin_ws/install/share/man/man3'
+ /usr/bin/install -c -m 644 ../nlopt-2.4.2/api/nlopt.3 '/home/rishabh/catkin_ws/build/nlopt/nlopt_install/home/rishabh/catkin_ws/install/share/man/man3'
+Making install in .
+ /bin/mkdir -p '/home/rishabh/catkin_ws/build/nlopt/nlopt_install/home/rishabh/catkin_ws/install/lib'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libnlopt_cxx.la '/home/rishabh/catkin_ws/build/nlopt/nlopt_install/home/rishabh/catkin_ws/install/lib'
+libtool: install: /usr/bin/install -c .libs/libnlopt_cxx.lai /home/rishabh/catkin_ws/build/nlopt/nlopt_install/home/rishabh/catkin_ws/install/lib/libnlopt_cxx.la
+libtool: install: /usr/bin/install -c .libs/libnlopt_cxx.a /home/rishabh/catkin_ws/build/nlopt/nlopt_install/home/rishabh/catkin_ws/install/lib/libnlopt_cxx.a
+libtool: install: chmod 644 /home/rishabh/catkin_ws/build/nlopt/nlopt_install/home/rishabh/catkin_ws/install/lib/libnlopt_cxx.a
+libtool: install: ranlib /home/rishabh/catkin_ws/build/nlopt/nlopt_install/home/rishabh/catkin_ws/install/lib/libnlopt_cxx.a
+libtool: install: warning: remember to run `libtool --finish /home/rishabh/catkin_ws/install/lib'
+ /bin/mkdir -p '/home/rishabh/catkin_ws/build/nlopt/nlopt_install/home/rishabh/catkin_ws/install/lib/pkgconfig'
+ /usr/bin/install -c -m 644 nlopt.pc '/home/rishabh/catkin_ws/build/nlopt/nlopt_install/home/rishabh/catkin_ws/install/lib/pkgconfig'
+Making install in octave
+Making install in test
+Making install in swig
+[ 80%] [34m[1mCompleted 'nlopt_src'[0m
+[ 80%] Built target nlopt_src
+[35m[1mScanning dependencies of target nlopt_wrap[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/nlopt_wrap.dir/src/wrap_lib.cc.o[0m
+[100%] [32m[1mLinking CXX shared library /home/rishabh/catkin_ws/devel/.private/nlopt/lib/libnlopt_wrap.so[0m
+[100%] Built target nlopt_wrap

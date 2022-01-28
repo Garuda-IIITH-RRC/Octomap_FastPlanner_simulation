@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/gps_vio/lib/pkgconfig/gps_vio.pc

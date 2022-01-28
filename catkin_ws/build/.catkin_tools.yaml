@@ -1,0 +1,6 @@
+devel_space: /home/rishabh/catkin_ws/devel
+install: false
+install_space: /home/rishabh/catkin_ws/install
+profile: default
+source_space: /home/rishabh/catkin_ws/src
+workspace: /home/rishabh/catkin_ws

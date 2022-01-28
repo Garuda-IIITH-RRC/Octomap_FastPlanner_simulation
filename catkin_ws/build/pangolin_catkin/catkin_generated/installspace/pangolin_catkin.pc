@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/install
+
+Name: pangolin_catkin
+Description: Description of pangolin_catkin
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lpangolin_catkin
+Requires: eigen_catkin

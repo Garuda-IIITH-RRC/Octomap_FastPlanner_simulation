@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/devel/.private/unique_id
+
+Name: unique_id
+Description: Description of unique_id
+Version: 1.0.6
+Cflags: -I/home/rishabh/catkin_ws/src/unique_identifier/unique_id/include -I/usr/include
+Libs: -L${prefix}/lib 
+Requires: uuid_msgs

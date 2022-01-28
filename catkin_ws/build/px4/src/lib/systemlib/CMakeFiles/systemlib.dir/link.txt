@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/rishabh/catkin_ws/devel/.private/px4/lib/libsystemlib.a  CMakeFiles/systemlib.dir/conversions.c.o CMakeFiles/systemlib.dir/crc.c.o CMakeFiles/systemlib.dir/mavlink_log.cpp.o
+/usr/bin/ranlib /home/rishabh/catkin_ws/devel/.private/px4/lib/libsystemlib.a

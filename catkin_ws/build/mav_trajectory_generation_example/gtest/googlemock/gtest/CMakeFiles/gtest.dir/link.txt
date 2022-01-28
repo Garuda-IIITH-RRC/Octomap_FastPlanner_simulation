@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/rishabh/catkin_ws/build/mav_trajectory_generation_example/gtest/googlemock/gtest/src -Wl,-rpath,/home/rishabh/catkin_ws/build/mav_trajectory_generation_example/gtest/googlemock/gtest/src -lpthread 

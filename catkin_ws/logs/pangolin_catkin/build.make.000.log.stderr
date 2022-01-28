@@ -1,0 +1,137 @@
+Cloning into 'pangolin_EXTERNAL'...
+Note: checking out '8b6a6b706d50d4172eeb6d5827f40b2207483cf0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 8b6a6b70 Move, Resize for OsxWindow
+Build type not set (defaults to release)
+-DCMAKE_BUILD_TYPE=Debug for debug
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CPP11_NO_BOOST
+
+
+Build type not set (defaults to release)
+-DCMAKE_BUILD_TYPE=Debug for debug
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+In file included from [01m[K/usr/include/OpenEXR/ImfHeader.h:51:0[m[K,
+                 from [01m[K/usr/include/OpenEXR/ImfInputFile.h:46[m[K,
+                 from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/image/image_io_exr.cpp:8[m[K:
+[01m[K/usr/include/OpenEXR/ImathVec.h:228:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     const Vec2 & normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:232:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     Vec2<T>  normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:440:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     const Vec3 & normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:444:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     Vec3<T>  normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:622:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     const Vec4 &    normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:626:44:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     Vec4<T>         normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                            [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:714:30:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec2<short>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                              [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:723:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec2<short>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:738:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec2<int>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                            [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:747:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec2<int>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                   [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:762:30:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec3<short>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                              [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:771:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec3<short>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:786:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec3<int>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                            [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:795:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec3<int>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                   [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:809:30:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec4<short>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                              [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:818:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec4<short>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:833:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec4<int>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                            [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:842:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec4<int>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                   [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:1212:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec2<T>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc)
+                          [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:1249:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec2<T>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc)
+                                 [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:1704:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec3<T>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc)
+                          [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:1743:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec3<T>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc)
+                                 [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:2109:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec4<T>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc)
+                          [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:2150:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec4<T>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc)
+                                 [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/log/packetstream_source.h:5:0[m[K,
+                 from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/log/packet.h:31[m[K,
+                 from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/log/packet.cpp:1[m[K:
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/utils/picojson.h:[m[K In function ‘[01m[Kbool picojson::_parse(Context&, picojson::input<Iter>&) [with Context = picojson::default_parse_context; Iter = std::istreambuf_iterator<char, std::char_traits<char> >][m[K’:
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/utils/picojson.h:335:12:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.picojson::value::u_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+         [01;35m[Ku_ = x.u_[m[K;
+         [01;35m[K~~~^~~~~~[m[K
+In file included from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/platform.h:81:0[m[K,
+                 from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/pangolin.h:30[m[K,
+                 from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/video/drivers/mirror.h:30[m[K,
+                 from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/mirror.cpp:28[m[K:
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/mirror.cpp:[m[K In member function ‘[01m[Kvoid pangolin::MirrorVideo::Process(unsigned char*, const unsigned char*)[m[K’:
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/utils/log.h:37:42:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+ #   define pango_print_warn(...)  [01;35m[Kfprintf(stderr, __VA_ARGS__)[m[K
+                                   [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/mirror.cpp:158:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kpango_print_warn[m[K’
+             [01;36m[Kpango_print_warn[m[K("MirrorVideo::Process(): Invalid enum %i.\n", flips[s]);
+             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/mirror.cpp:159:9:[m[K [01;36m[Knote: [m[Khere
+         [01;36m[Kcase[m[K MirrorOptionsNone:
+         [01;36m[K^~~~[m[K
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/openni.cpp:[m[K In constructor ‘[01m[Kpangolin::OpenNiVideo::OpenNiVideo(pangolin::OpenNiSensorType, pangolin::OpenNiSensorType, pangolin::ImageDim, int)[m[K’:
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/openni.cpp:82:28:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+             [01;35m[Kdepth_to_color = true[m[K;
+             [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/openni.cpp:83:9:[m[K [01;36m[Knote: [m[Khere
+         [01;36m[Kcase[m[K OpenNiDepth_1mm:
+         [01;36m[K^~~~[m[K
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/openni2.cpp:[m[K In member function ‘[01m[Kvoid pangolin::OpenNi2Video::SetupStreamModes()[m[K’:
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/openni2.cpp:271:28:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+             [01;35m[Kdepth_to_color = true[m[K;
+             [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/openni2.cpp:272:9:[m[K [01;36m[Knote: [m[Khere
+         [01;36m[Kcase[m[K OpenNiDepth_1mm:
+         [01;36m[K^~~~[m[K
+Build type not set (defaults to release)
+-DCMAKE_BUILD_TYPE=Debug for debug
+make[3]: warning: -jN forced in submake: disabling jobserver mode.

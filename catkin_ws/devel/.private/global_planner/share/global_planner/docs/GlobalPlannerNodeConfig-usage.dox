@@ -1,0 +1,35 @@
+\subsubsection usage Usage
+\verbatim
+<node name="global_planner" pkg="global_planner" type="global_planner">
+  <param name="min_altitude_" type="int" value="1" />
+  <param name="max_altitude_" type="int" value="10" />
+  <param name="max_cell_risk_" type="double" value="0.2" />
+  <param name="smooth_factor_" type="double" value="20.0" />
+  <param name="vert_to_hor_cost_" type="double" value="3.0" />
+  <param name="risk_factor_" type="double" value="500.0" />
+  <param name="neighbor_risk_flow_" type="double" value="1.0" />
+  <param name="explore_penalty_" type="double" value="0.005" />
+  <param name="up_cost_" type="double" value="5.0" />
+  <param name="down_cost_" type="double" value="1.0" />
+  <param name="search_time_" type="double" value="0.5" />
+  <param name="min_overestimate_factor_" type="double" value="1.03" />
+  <param name="max_overestimate_factor_" type="double" value="2.0" />
+  <param name="risk_threshold_risk_based_speedup_" type="double" value="0.5" />
+  <param name="default_speed_" type="double" value="1.0" />
+  <param name="max_speed_" type="double" value="3.0" />
+  <param name="max_iterations_" type="int" value="2000" />
+  <param name="goal_must_be_free_" type="bool" value="True" />
+  <param name="use_current_yaw_" type="bool" value="True" />
+  <param name="use_risk_heuristics_" type="bool" value="True" />
+  <param name="use_speedup_heuristics_" type="bool" value="True" />
+  <param name="use_risk_based_speedup_" type="bool" value="True" />
+  <param name="clicked_goal_alt_" type="double" value="3.5" />
+  <param name="clicked_goal_radius_" type="double" value="1.0" />
+  <param name="simplify_iterations_" type="int" value="1" />
+  <param name="simplify_margin_" type="double" value="1.01" />
+  <param name="CELL_SCALE" type="double" value="1.0" />
+  <param name="SPEEDNODE_RADIUS" type="double" value="5.0" />
+  <param name="default_node_type_" type="str" value="SpeedNode" />
+</node>
+\endverbatim
+

@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/rosbag_to_csv/lib/pkgconfig/rosbag_to_csv.pc

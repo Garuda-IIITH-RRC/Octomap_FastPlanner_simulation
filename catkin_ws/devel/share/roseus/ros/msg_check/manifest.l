@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/msg_check/share/roseus/ros/msg_check/manifest.l

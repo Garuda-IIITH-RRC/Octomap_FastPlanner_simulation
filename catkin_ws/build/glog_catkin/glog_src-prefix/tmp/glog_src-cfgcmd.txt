@@ -1,0 +1,1 @@
+cmd='cd;../glog_src/;&&;autoreconf;-fi;&&;./configure;--with-pic;--with-gflags=;--prefix=/home/rishabh/catkin_ws/devel/.private/glog_catkin'

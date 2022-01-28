@@ -1,0 +1,8 @@
+prefix=/home/rishabh/fastplanner_ws/install
+
+Name: FastPlannerOctomap
+Description: Description of FastPlannerOctomap
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

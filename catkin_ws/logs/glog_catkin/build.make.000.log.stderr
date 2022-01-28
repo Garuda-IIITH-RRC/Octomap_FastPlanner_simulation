@@ -1,0 +1,59 @@
+configure.ac:19: installing './compile'
+configure.ac:13: installing './missing'
+Makefile.am: installing './depcomp'
+parallel-tests: installing './test-driver'
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+In file included from [01m[Ksrc/logging_unittest.cc:58:0[m[K:
+[01m[Ksrc/googletest.h:579:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new(size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                 [01;35m[K^~~~~[m[K
+[01m[Ksrc/googletest.h:586:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new[](size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                   [01;35m[K^~~~~[m[K
+[01m[Ksrc/logging_unittest.cc:[m[K In function ‘[01m[Kvoid TestDCHECK()[m[K’:
+[01m[Ksrc/logging_unittest.cc:568:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   [01;35m[Kauto_ptr[m[K<int64> sptr(new int64);
+   [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/7/locale:43[m[K,
+                 from [01m[K/usr/include/c++/7/iomanip:43[m[K,
+                 from [01m[Ksrc/logging_unittest.cc:44[m[K:
+[01m[K/usr/include/c++/7/bits/unique_ptr.h:51:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class [01;36m[Kauto_ptr[m[K;
+                            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/ext/hash_set:60:0[m[K,
+                 from [01m[Ksrc/glog/stl_logging.h:73[m[K,
+                 from [01m[Ksrc/stl_logging_unittest.cc:62[m[K:
+[01m[K/usr/include/c++/7/backward/backward_warning.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[Ksrc/demangle_unittest.cc:41:0[m[K:
+[01m[Ksrc/googletest.h:579:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new(size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                 [01;35m[K^~~~~[m[K
+[01m[Ksrc/googletest.h:586:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new[](size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                   [01;35m[K^~~~~[m[K
+In file included from [01m[Ksrc/symbolize_unittest.cc:41:0[m[K:
+[01m[Ksrc/googletest.h:579:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new(size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                 [01;35m[K^~~~~[m[K
+[01m[Ksrc/googletest.h:586:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new[](size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                   [01;35m[K^~~~~[m[K
+In file included from [01m[Ksrc/utilities_unittest.cc:32:0[m[K:
+[01m[Ksrc/googletest.h:579:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new(size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                 [01;35m[K^~~~~[m[K
+[01m[Ksrc/googletest.h:586:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new[](size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                   [01;35m[K^~~~~[m[K
+In file included from [01m[Ksrc/stl_logging_unittest.cc:63:0[m[K:
+[01m[Ksrc/googletest.h:579:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new(size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                 [01;35m[K^~~~~[m[K
+[01m[Ksrc/googletest.h:586:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void* operator new[](size_t size) [01;35m[Kthrow[m[K(std::bad_alloc) {
+                                   [01;35m[K^~~~~[m[K
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: warning: -jN forced in submake: disabling jobserver mode.

@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/install
+
+Name: gps_vio
+Description: Description of gps_vio
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lgps_vio_lib
+Requires: roscpp message_filters nav_msgs

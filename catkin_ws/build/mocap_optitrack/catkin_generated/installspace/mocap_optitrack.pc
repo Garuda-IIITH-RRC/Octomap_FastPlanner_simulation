@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/install
+
+Name: mocap_optitrack
+Description: Description of mocap_optitrack
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp

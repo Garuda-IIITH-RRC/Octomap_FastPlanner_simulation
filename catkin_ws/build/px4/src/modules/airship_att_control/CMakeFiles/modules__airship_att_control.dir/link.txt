@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/rishabh/catkin_ws/devel/.private/px4/lib/libmodules__airship_att_control.a  CMakeFiles/modules__airship_att_control.dir/airship_att_control_main.cpp.o
+/usr/bin/ranlib /home/rishabh/catkin_ws/devel/.private/px4/lib/libmodules__airship_att_control.a

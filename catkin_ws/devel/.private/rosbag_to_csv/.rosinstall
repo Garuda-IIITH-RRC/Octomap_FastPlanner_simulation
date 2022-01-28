@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/rishabh/catkin_ws/devel/.private/rosbag_to_csv/setup.sh

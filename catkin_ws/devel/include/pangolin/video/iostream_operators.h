@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/iostream_operators.h

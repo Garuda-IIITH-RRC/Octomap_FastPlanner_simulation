@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/rishabh/catkin_ws/devel/.private/px4/lib/libvehicle_magnetometer.a  CMakeFiles/vehicle_magnetometer.dir/VehicleMagnetometer.cpp.o
+/usr/bin/ranlib /home/rishabh/catkin_ws/devel/.private/px4/lib/libvehicle_magnetometer.a

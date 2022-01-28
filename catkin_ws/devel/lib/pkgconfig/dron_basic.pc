@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/dron_basic/lib/pkgconfig/dron_basic.pc

@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/controller_msgs/share/common-lisp/ros/controller_msgs/msg/controller_msgs-msg.asd

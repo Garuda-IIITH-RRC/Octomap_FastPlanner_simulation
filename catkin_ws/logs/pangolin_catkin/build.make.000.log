@@ -1,0 +1,698 @@
+[35m[1mScanning dependencies of target pangolin_EXTERNAL[0m
+[ 10%] [34m[1mCreating directories for 'pangolin_EXTERNAL'[0m
+[ 20%] [34m[1mPerforming download step (git clone) for 'pangolin_EXTERNAL'[0m
+Cloning into 'pangolin_EXTERNAL'...
+Note: checking out '8b6a6b706d50d4172eeb6d5827f40b2207483cf0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 8b6a6b70 Move, Resize for OsxWindow
+[ 40%] [34m[1mNo update step for 'pangolin_EXTERNAL'[0m
+[ 40%] [34m[1mNo patch step for 'pangolin_EXTERNAL'[0m
+[ 50%] [34m[1mPerforming configure step for 'pangolin_EXTERNAL'[0m
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Build type not set (defaults to release)
+-DCMAKE_BUILD_TYPE=Debug for debug
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found X11: /usr/lib/x86_64-linux-gnu/libX11.so
+-- Python Found and Enabled
+-- Eigen Found and Enabled
+-- libdc1394 Found and Enabled
+-- V4L Found and Enabled
+-- Performing Test HAVE_FFMPEG_MAX_ANALYZE_DURATION2
+-- Performing Test HAVE_FFMPEG_MAX_ANALYZE_DURATION2 - Failed
+-- Performing Test HAVE_FFMPEG_AVFORMAT_ALLOC_OUTPUT_CONTEXT2
+-- Performing Test HAVE_FFMPEG_AVFORMAT_ALLOC_OUTPUT_CONTEXT2 - Success
+-- Performing Test HAVE_FFMPEG_AVPIXELFORMAT
+-- Performing Test HAVE_FFMPEG_AVPIXELFORMAT - Success
+-- ffmpeg Found and Enabled
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- OpenNI Found and Enabled
+-- OpenNI2 Found and Enabled
+-- libpng Found and Enabled
+-- libjpeg Found and Enabled
+-- libtiff Found and Enabled
+-- libopenexr Found and Enabled
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CPP11_NO_BOOST
+
+
+-- Build files have been written to: /home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-build
+[ 60%] [34m[1mPerforming build step for 'pangolin_EXTERNAL'[0m
+Build type not set (defaults to release)
+-DCMAKE_BUILD_TYPE=Debug for debug
+-- Python Found and Enabled
+-- Eigen Found and Enabled
+-- libdc1394 Found and Enabled
+-- V4L Found and Enabled
+-- ffmpeg Found and Enabled
+-- OpenNI Found and Enabled
+-- OpenNI2 Found and Enabled
+-- libpng Found and Enabled
+-- libjpeg Found and Enabled
+-- libtiff Found and Enabled
+-- libopenexr Found and Enabled
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-build
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+[35m[1mScanning dependencies of target pangolin[0m
+[  1%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/uri.cpp.o[0m
+[  2%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/file_utils.cpp.o[0m
+[  3%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/file_extension.cpp.o[0m
+[  5%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/threadedfilebuf.cpp.o[0m
+[  6%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/sigstate.cpp.o[0m
+[  7%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io.cpp.o[0m
+[  9%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/timer.cpp.o[0m
+[ 10%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_exr.cpp.o[0m
+[ 11%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_jpg.cpp.o[0m
+In file included from [01m[K/usr/include/OpenEXR/ImfHeader.h:51:0[m[K,
+                 from [01m[K/usr/include/OpenEXR/ImfInputFile.h:46[m[K,
+                 from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/image/image_io_exr.cpp:8[m[K:
+[01m[K/usr/include/OpenEXR/ImathVec.h:228:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     const Vec2 & normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:232:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     Vec2<T>  normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:440:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     const Vec3 & normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:444:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     Vec3<T>  normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:622:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     const Vec4 &    normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:626:44:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     Vec4<T>         normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                            [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:714:30:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec2<short>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                              [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:723:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec2<short>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:738:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec2<int>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                            [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:747:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec2<int>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                   [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:762:30:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec3<short>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                              [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:771:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec3<short>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:786:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec3<int>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                            [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:795:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec3<int>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                   [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:809:30:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec4<short>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                              [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:818:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec4<short>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:833:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec4<int>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                            [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:842:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec4<int>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc);
+                                   [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:1212:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec2<T>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc)
+                          [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:1249:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec2<T>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc)
+                                 [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:1704:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec3<T>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc)
+                          [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:1743:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec3<T>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc)
+                                 [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:2109:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec4<T>::normalizeExc () [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc)
+                          [01;35m[K^~~~~[m[K
+[01m[K/usr/include/OpenEXR/ImathVec.h:2150:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ Vec4<T>::normalizedExc () const [01;35m[Kthrow[m[K (IEX_NAMESPACE::MathExc)
+                                 [01;35m[K^~~~~[m[K
+[ 12%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_pango.cpp.o[0m
+[ 14%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_png.cpp.o[0m
+[ 15%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_ppm.cpp.o[0m
+[ 16%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_raw.cpp.o[0m
+[ 18%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_tga.cpp.o[0m
+[ 19%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_zstd.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/pixel_format.cpp.o[0m
+[ 22%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/log/packetstream.cpp.o[0m
+[ 23%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/log/packet.cpp.o[0m
+[ 24%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/log/packetstream_reader.cpp.o[0m
+[ 25%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/log/packetstream_writer.cpp.o[0m
+[ 27%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/log/playback_session.cpp.o[0m
+[ 28%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/gl/glchar.cpp.o[0m
+[ 29%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/gl/gldraw.cpp.o[0m
+[ 31%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/gl/glfont.cpp.o[0m
+[ 32%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/gl/glpangoglu.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/gl/gltext.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/gl/gltexturecache.cpp.o[0m
+[ 36%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/display.cpp.o[0m
+[ 37%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/image_view.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/opengl_render_state.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/view.cpp.o[0m
+In file included from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/log/packetstream_source.h:5:0[m[K,
+                 from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/log/packet.h:31[m[K,
+                 from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/log/packet.cpp:1[m[K:
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/utils/picojson.h:[m[K In function ‘[01m[Kbool picojson::_parse(Context&, picojson::input<Iter>&) [with Context = picojson::default_parse_context; Iter = std::istreambuf_iterator<char, std::char_traits<char> >][m[K’:
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/utils/picojson.h:335:12:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>.picojson::value::u_[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+         [01;35m[Ku_ = x.u_[m[K;
+         [01;35m[K~~~^~~~~~[m[K
+[ 41%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/viewport.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/handler/handler.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/handler/handler_glbuffer.cpp.o[0m
+[ 45%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/handler/handler_image.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/plot/datalog.cpp.o[0m
+[ 48%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/plot/plotter.cpp.o[0m
+[ 49%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/var/input_record_repeat.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/var/vars.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/widgets/widgets.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/stream_encoder_factory.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/video.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/video_input.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/video_interface_factory.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/video_output.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/video_output_interface_factory.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/test.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/images.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/images_out.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/split.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/pvn.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/pango.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/pango_video_output.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/debayer.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/shift.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/mirror.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/unpack.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/join.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/merge.cpp.o[0m
+In file included from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/platform.h:81:0[m[K,
+                 from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/pangolin.h:30[m[K,
+                 from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/video/drivers/mirror.h:30[m[K,
+                 from [01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/mirror.cpp:28[m[K:
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/mirror.cpp:[m[K In member function ‘[01m[Kvoid pangolin::MirrorVideo::Process(unsigned char*, const unsigned char*)[m[K’:
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/include/pangolin/utils/log.h:37:42:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+ #   define pango_print_warn(...)  [01;35m[Kfprintf(stderr, __VA_ARGS__)[m[K
+                                   [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/mirror.cpp:158:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kpango_print_warn[m[K’
+             [01;36m[Kpango_print_warn[m[K("MirrorVideo::Process(): Invalid enum %i.\n", flips[s]);
+             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/mirror.cpp:159:9:[m[K [01;36m[Knote: [m[Khere
+         [01;36m[Kcase[m[K MirrorOptionsNone:
+         [01;36m[K^~~~[m[K
+[ 77%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/json.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/thread.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/tools/video_viewer.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/device/display_x11.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/posix/condition_variable.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/posix/semaphore.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/posix/shared_memory_buffer.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/console/ConsoleView.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/PyInterpreter.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/PyModulePangolin.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/firewire.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/deinterlace.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/v4l.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/ffmpeg.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/openni.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/openni2.cpp.o[0m
+[ 98%] [32mBuilding C object src/CMakeFiles/pangolin.dir/fonts.c.o[0m
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/openni.cpp:[m[K In constructor ‘[01m[Kpangolin::OpenNiVideo::OpenNiVideo(pangolin::OpenNiSensorType, pangolin::OpenNiSensorType, pangolin::ImageDim, int)[m[K’:
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/openni.cpp:82:28:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+             [01;35m[Kdepth_to_color = true[m[K;
+             [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/openni.cpp:83:9:[m[K [01;36m[Knote: [m[Khere
+         [01;36m[Kcase[m[K OpenNiDepth_1mm:
+         [01;36m[K^~~~[m[K
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/openni2.cpp:[m[K In member function ‘[01m[Kvoid pangolin::OpenNi2Video::SetupStreamModes()[m[K’:
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/openni2.cpp:271:28:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+             [01;35m[Kdepth_to_color = true[m[K;
+             [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL/src/video/drivers/openni2.cpp:272:9:[m[K [01;36m[Knote: [m[Khere
+         [01;36m[Kcase[m[K OpenNiDepth_1mm:
+         [01;36m[K^~~~[m[K
+[100%] [32m[1mLinking CXX shared library libpangolin.so[0m
+[100%] Built target pangolin
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/config.h
+-- Up-to-date: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/plot
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/plot/datalog.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/plot/plotter.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/plot/range.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/stream_encoder_factory.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/iostream_operators.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/video_interface.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/video_input.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/video_record_repeat.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/openni_common.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/shift.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/openni.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/teli.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/ffmpeg.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/split.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/v4l.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/join.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/mirror.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/images_out.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/pleora.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/pvn.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/thread.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/depthsense.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/images.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/openni2.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/uvc_mediafoundation.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/test.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/merge.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/shared_memory.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/unpack.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/pango.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/realsense.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/pango_video_output.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/firewire.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/uvc.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/deinterlace.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/drivers/debayer.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/video_output.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/stream_info.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/video_output_interface.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/video.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/video/video_exception.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/compat
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/compat/glconsole.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/compat/glutbitmap.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/compat/type_traits.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/compat/ovr.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/python
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/python/PyVar.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/python/PyModulePangolin.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/python/PyUniqueObj.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/python/PyPangoIO.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/python/PyInterpreter.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/log
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/log/packetstream_tags.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/log/packet.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/log/packetstream_source.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/log/packetstream_reader.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/log/packetstream_writer.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/log/packetstream.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/log/sync_time.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/log/playback_session.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/var
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/var/varvalue.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/var/varwrapper.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/var/varextra.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/var/varvaluegeneric.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/var/varstate.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/var/var.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/var/varvaluet.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/var/input_record_repeat.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/image
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/image/image.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/image/memcpy.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/image/copy.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/image/pixel_format.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/image/image_io.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/image/image_convert.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/image/typed_image.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/image/image_utils.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/image/managed_image.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/platform.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/pangolin.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/tools
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/tools/video_viewer.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/scene
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/scene/interactive.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/scene/interactive_index.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/scene/scenehandler.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/scene/axis.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/scene/renderable.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/factory
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/factory/factory_registry.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/hud
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/hud/oculus_hud.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/console
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/console/ConsoleView.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/console/ConsoleInterpreter.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/glformattraits.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/glpixformat.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/glcuda.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/gldraw.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/glchar.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/glplatform.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/gltext.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/compat
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/compat/gl_es_compat.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/compat/gl2engine.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/glpangoglu.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/glvbo.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/glinclude.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/glfont.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/cg.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/glglut.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/gltexturecache.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/colour.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/glsl.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/gl.hpp
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/gl.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/gl/glstate.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/ios
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/ios/PangolinAppDelegate.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/ios/PangolinUIView.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/params.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/threadedfilebuf.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/sigstate.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/picojson.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/registration.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/posix
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/posix/semaphore.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/posix/shared_memory_buffer.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/posix/condition_variable.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/log.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/file_extension.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/compontent_cast.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/transform.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/fix_size_buffer_queue.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/type_convert.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/uri.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/signal_slot.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/file_utils.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/timer.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/xml
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/xml/rapidxml_utils.hpp
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/xml/license.txt
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/xml/rapidxml.hpp
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/xml/rapidxml_print.hpp
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/xml/rapidxml_iterators.hpp
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/argagg.hpp
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/memstreambuf.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/simple_math.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/format_string.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/utils/assert.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/handler
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/handler/handler.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/handler/handler_glbuffer.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/handler/handler_enums.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/handler/handler_image.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/widgets
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/widgets/widgets.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/view.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/viewport.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/opengl_render_state.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/device
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/device/WinWindow.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/device/OsxWindow.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/device/display_glut.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/device/display_android.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/device/X11GlContext.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/device/PangolinNSGLView.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/device/PangolinNSApplication.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/device/X11Window.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/image_view.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/display.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/window.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/attach.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/display_internal.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/include/pangolin/display/user_app.h
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/lib/libpangolin.so
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/lib/cmake/Pangolin/PangolinConfig.cmake
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/lib/cmake/Pangolin/PangolinConfigVersion.cmake
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/lib/cmake/Pangolin/PangolinTargets.cmake
+-- Installing: /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/lib/cmake/Pangolin/PangolinTargets-release.cmake
+[ 70%] [34m[1mPerforming install step for 'pangolin_EXTERNAL'[0m
+Build type not set (defaults to release)
+-DCMAKE_BUILD_TYPE=Debug for debug
+-- Python Found and Enabled
+-- Eigen Found and Enabled
+-- libdc1394 Found and Enabled
+-- V4L Found and Enabled
+-- ffmpeg Found and Enabled
+-- OpenNI Found and Enabled
+-- OpenNI2 Found and Enabled
+-- libpng Found and Enabled
+-- libjpeg Found and Enabled
+-- libtiff Found and Enabled
+-- libopenexr Found and Enabled
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-build
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+[35m[1mScanning dependencies of target pangolin[0m
+[  1%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/video.cpp.o[0m
+[  2%] [32mBuilding C object src/CMakeFiles/pangolin.dir/fonts.c.o[0m
+[  3%] [32m[1mLinking CXX shared library libpangolin.so[0m
+[100%] Built target pangolin
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/config.h
+-- Up-to-date: /home/rishabh/catkin_ws/install/include/pangolin
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/plot
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/plot/datalog.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/plot/plotter.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/plot/range.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/stream_encoder_factory.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/iostream_operators.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/video_interface.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/video_input.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/video_record_repeat.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/openni_common.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/shift.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/openni.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/teli.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/ffmpeg.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/split.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/v4l.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/join.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/mirror.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/images_out.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/pleora.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/pvn.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/thread.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/depthsense.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/images.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/openni2.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/uvc_mediafoundation.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/test.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/merge.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/shared_memory.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/unpack.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/pango.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/realsense.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/pango_video_output.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/firewire.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/uvc.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/deinterlace.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/drivers/debayer.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/video_output.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/stream_info.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/video_output_interface.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/video.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/video/video_exception.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/compat
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/compat/glconsole.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/compat/glutbitmap.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/compat/type_traits.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/compat/ovr.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/python
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/python/PyVar.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/python/PyModulePangolin.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/python/PyUniqueObj.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/python/PyPangoIO.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/python/PyInterpreter.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/log
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/log/packetstream_tags.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/log/packet.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/log/packetstream_source.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/log/packetstream_reader.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/log/packetstream_writer.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/log/packetstream.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/log/sync_time.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/log/playback_session.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/var
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/var/varvalue.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/var/varwrapper.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/var/varextra.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/var/varvaluegeneric.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/var/varstate.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/var/var.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/var/varvaluet.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/var/input_record_repeat.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/image
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/image/image.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/image/memcpy.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/image/copy.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/image/pixel_format.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/image/image_io.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/image/image_convert.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/image/typed_image.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/image/image_utils.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/image/managed_image.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/platform.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/pangolin.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/tools
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/tools/video_viewer.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/scene
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/scene/interactive.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/scene/interactive_index.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/scene/scenehandler.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/scene/axis.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/scene/renderable.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/factory
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/factory/factory_registry.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/hud
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/hud/oculus_hud.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/console
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/console/ConsoleView.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/console/ConsoleInterpreter.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/glformattraits.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/glpixformat.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/glcuda.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/gldraw.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/glchar.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/glplatform.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/gltext.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/compat
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/compat/gl_es_compat.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/compat/gl2engine.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/glpangoglu.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/glvbo.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/glinclude.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/glfont.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/cg.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/glglut.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/gltexturecache.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/colour.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/glsl.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/gl.hpp
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/gl.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/gl/glstate.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/ios
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/ios/PangolinAppDelegate.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/ios/PangolinUIView.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/params.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/threadedfilebuf.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/sigstate.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/picojson.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/registration.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/posix
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/posix/semaphore.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/posix/shared_memory_buffer.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/posix/condition_variable.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/log.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/file_extension.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/compontent_cast.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/transform.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/fix_size_buffer_queue.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/type_convert.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/uri.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/signal_slot.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/file_utils.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/timer.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/xml
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/xml/rapidxml_utils.hpp
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/xml/license.txt
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/xml/rapidxml.hpp
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/xml/rapidxml_print.hpp
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/xml/rapidxml_iterators.hpp
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/argagg.hpp
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/memstreambuf.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/simple_math.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/format_string.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/utils/assert.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/handler
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/handler/handler.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/handler/handler_glbuffer.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/handler/handler_enums.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/handler/handler_image.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/widgets
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/widgets/widgets.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/view.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/viewport.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/opengl_render_state.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/device
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/device/WinWindow.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/device/OsxWindow.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/device/display_glut.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/device/display_android.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/device/X11GlContext.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/device/PangolinNSGLView.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/device/PangolinNSApplication.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/device/X11Window.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/image_view.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/display.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/window.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/attach.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/display_internal.h
+-- Installing: /home/rishabh/catkin_ws/install/include/pangolin/display/user_app.h
+-- Installing: /home/rishabh/catkin_ws/install/lib/libpangolin.so
+-- Installing: /home/rishabh/catkin_ws/install/lib/cmake/Pangolin/PangolinConfig.cmake
+-- Installing: /home/rishabh/catkin_ws/install/lib/cmake/Pangolin/PangolinConfigVersion.cmake
+-- Installing: /home/rishabh/catkin_ws/install/lib/cmake/Pangolin/PangolinTargets.cmake
+-- Installing: /home/rishabh/catkin_ws/install/lib/cmake/Pangolin/PangolinTargets-release.cmake
+[ 80%] [34m[1mCompleted 'pangolin_EXTERNAL'[0m
+[ 80%] Built target pangolin_EXTERNAL
+[35m[1mScanning dependencies of target pangolin_catkin[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/pangolin_catkin.dir/src/empty.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/rishabh/catkin_ws/devel/.private/pangolin_catkin/lib/libpangolin_catkin.so[0m
+[100%] Built target pangolin_catkin

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/rishabh/catkin_ws/devel/.private/px4/lib/libsensor_calibration.a  CMakeFiles/sensor_calibration.dir/Accelerometer.cpp.o CMakeFiles/sensor_calibration.dir/Gyroscope.cpp.o CMakeFiles/sensor_calibration.dir/Magnetometer.cpp.o CMakeFiles/sensor_calibration.dir/Utilities.cpp.o
+/usr/bin/ranlib /home/rishabh/catkin_ws/devel/.private/px4/lib/libsensor_calibration.a

@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/devel/.private/avoidance
+
+Name: avoidance
+Description: Description of avoidance
+Version: 0.2.0
+Cflags: -I/home/rishabh/catkin_ws/src/avoidance/avoidance/include
+Libs: -L${prefix}/lib -lavoidance
+Requires: roscpp rospy std_msgs mavros_msgs geometry_msgs sensor_msgs message_runtime tf

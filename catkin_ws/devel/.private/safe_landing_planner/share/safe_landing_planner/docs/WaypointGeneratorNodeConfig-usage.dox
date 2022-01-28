@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="safe_landing_planner" pkg="safe_landing_planner" type="safe_landing_planner">
+  <param name="can_land_thr" type="double" value="0.4" />
+  <param name="loiter_height" type="double" value="8.0" />
+  <param name="smoothing_land_cell" type="int" value="6" />
+  <param name="beta" type="double" value="0.9" />
+  <param name="vertical_range_error" type="double" value="0.5" />
+  <param name="spiral_width" type="double" value="2.0" />
+</node>
+\endverbatim
+

@@ -1,0 +1,17 @@
+[31m[1mCMake Error[0m at /home/rishabh/catkin_ws/src/gps_vio/CMakeLists.txt:9 (find_package):
+  By not providing "FindGTSAM.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "GTSAM", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "GTSAM" with any of
+  the following names:
+
+    GTSAMConfig.cmake
+    gtsam-config.cmake
+
+  Add the installation prefix of "GTSAM" to CMAKE_PREFIX_PATH or set
+  "GTSAM_DIR" to a directory containing one of the above files.  If "GTSAM"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+

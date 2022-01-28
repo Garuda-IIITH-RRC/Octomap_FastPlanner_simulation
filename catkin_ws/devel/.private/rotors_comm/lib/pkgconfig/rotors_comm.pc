@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/devel/.private/rotors_comm
+
+Name: rotors_comm
+Description: Description of rotors_comm
+Version: 2.2.3
+Cflags: -I/home/rishabh/catkin_ws/devel/.private/rotors_comm/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

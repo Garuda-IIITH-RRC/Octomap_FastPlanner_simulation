@@ -1,0 +1,17 @@
+[31m[1mCMake Error[0m at /home/rishabh/catkin_ws/src/vrpn_client_ros/CMakeLists.txt:5 (find_package):
+  By not providing "FindVRPN.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "VRPN", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "VRPN" with any of
+  the following names:
+
+    VRPNConfig.cmake
+    vrpn-config.cmake
+
+  Add the installation prefix of "VRPN" to CMAKE_PREFIX_PATH or set
+  "VRPN_DIR" to a directory containing one of the above files.  If "VRPN"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+

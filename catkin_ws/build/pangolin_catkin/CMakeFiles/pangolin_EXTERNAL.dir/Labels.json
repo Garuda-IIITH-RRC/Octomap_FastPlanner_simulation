@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/rishabh/catkin_ws/build/pangolin_catkin/CMakeFiles/pangolin_EXTERNAL"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/pangolin_catkin/CMakeFiles/pangolin_EXTERNAL.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/pangolin_catkin/CMakeFiles/pangolin_EXTERNAL-complete.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-stamp/pangolin_EXTERNAL-install.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-stamp/pangolin_EXTERNAL-mkdir.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-stamp/pangolin_EXTERNAL-download.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-stamp/pangolin_EXTERNAL-update.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-stamp/pangolin_EXTERNAL-patch.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-stamp/pangolin_EXTERNAL-configure.rule"
+		},
+		{
+			"file" : "/home/rishabh/catkin_ws/build/pangolin_catkin/pangolin_EXTERNAL-prefix/src/pangolin_EXTERNAL-stamp/pangolin_EXTERNAL-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pangolin_EXTERNAL"
+		],
+		"name" : "pangolin_EXTERNAL"
+	}
+}

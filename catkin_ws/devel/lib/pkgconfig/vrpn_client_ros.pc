@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/vrpn_client_ros/lib/pkgconfig/vrpn_client_ros.pc

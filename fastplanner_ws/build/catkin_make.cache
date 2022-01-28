@@ -1,0 +1,2 @@
+FastPlannerOctomap
+-DCATKIN_DEVEL_PREFIX=/home/rishabh/fastplanner_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rishabh/fastplanner_ws/install -G Unix Makefiles

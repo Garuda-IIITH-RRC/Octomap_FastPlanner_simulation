@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/devel/.private/rotors_gazebo
+
+Name: rotors_gazebo
+Description: Description of rotors_gazebo
+Version: 2.2.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: gazebo_msgs geometry_msgs mav_msgs roscpp sensor_msgs

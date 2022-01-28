@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/devel/.private/geometric_controller
+
+Name: geometric_controller
+Description: Description of geometric_controller
+Version: 0.0.0
+Cflags: -I/home/rishabh/catkin_ws/devel/.private/geometric_controller/include -I/home/rishabh/catkin_ws/src/mavros_controllers/geometric_controller/include
+Libs: -L${prefix}/lib -lgeometric_controller
+Requires: roscpp rospy std_msgs mavros_msgs geometry_msgs sensor_msgs tf controller_msgs

@@ -1,0 +1,11 @@
+[  4%] Built target octomap_server_gencfg
+[ 20%] Built target octomap_server
+[ 28%] Built target octomap_saver
+[ 44%] Built target octomap_server_color
+[ 52%] Built target octomap_server_multilayer
+[ 60%] Built target octomap_server_static
+[ 68%] Built target octomap_server_nodelet
+[ 76%] Built target octomap_tracking_server_node
+[ 84%] Built target octomap_color_server_nodelet
+[ 92%] Built target octomap_server_node
+[100%] Built target octomap_color_server_node

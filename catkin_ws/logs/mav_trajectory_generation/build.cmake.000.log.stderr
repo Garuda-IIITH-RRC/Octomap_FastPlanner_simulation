@@ -1,0 +1,17 @@
+[31m[1mCMake Error[0m at /home/rishabh/catkin_ws/src/mav_trajectory_generation/mav_trajectory_generation/CMakeLists.txt:4 (find_package):
+  By not providing "Findcatkin_simple.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "catkin_simple", but CMake did not find one.
+
+  Could not find a package configuration file provided by "catkin_simple"
+  with any of the following names:
+
+    catkin_simpleConfig.cmake
+    catkin_simple-config.cmake
+
+  Add the installation prefix of "catkin_simple" to CMAKE_PREFIX_PATH or set
+  "catkin_simple_DIR" to a directory containing one of the above files.  If
+  "catkin_simple" provides a separate development package or SDK, be sure it
+  has been installed.
+
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/rishabh/catkin_ws/devel/.private/px4/lib/libsystemcmds__mixer.a  CMakeFiles/systemcmds__mixer.dir/mixer.cpp.o
+/usr/bin/ranlib /home/rishabh/catkin_ws/devel/.private/px4/lib/libsystemcmds__mixer.a

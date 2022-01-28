@@ -1,0 +1,28 @@
+CMake Warning (dev) at /usr/share/cmake-3.10/Modules/FindBoost.cmake:911 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "chrono" will no longer be dereferenced when the
+  policy is set to NEW.  Since the policy is not set the OLD behavior will be
+  used.
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:1558 (_Boost_MISSING_DEPENDENCIES)
+  /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:175 (find_package)
+  /opt/ros/melodic/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)
+  /opt/ros/melodic/share/gazebo_dev/cmake/gazebo_devConfig.cmake:222 (include)
+  CMakeLists.txt:125 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[33m[1mCMake Warning[0m at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'octomap' but neither 'octomap_INCLUDE_DIRS'
+  nor 'octomap_LIBRARIES' is defined.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:229 (catkin_package)
+
+
+WARNMAVLINK_HEADER_DIR not provided, falling back to looking at default paths...
+WARNMavlink headers found and mavros version check successful, building MavlinkInterfacePlugin

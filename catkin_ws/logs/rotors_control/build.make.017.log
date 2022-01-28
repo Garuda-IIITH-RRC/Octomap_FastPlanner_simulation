@@ -1,0 +1,61 @@
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target mav_msgs_generate_messages_eus
+[  0%] Built target mav_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target mav_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target mav_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target mav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roll_pitch_yawrate_thrust_controller[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/src/library/roll_pitch_yawrate_thrust_controller.cpp.o[0m
+[35m[1mScanning dependencies of target lee_position_controller[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library /home/rishabh/catkin_ws/devel/.private/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.so[0m
+[ 37%] Built target roll_pitch_yawrate_thrust_controller
+[35m[1mScanning dependencies of target roll_pitch_yawrate_thrust_controller_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library /home/rishabh/catkin_ws/devel/.private/rotors_control/lib/liblee_position_controller.so[0m
+[ 62%] Built target lee_position_controller
+[35m[1mScanning dependencies of target lee_position_controller_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/lee_position_controller_node.dir/src/nodes/lee_position_controller_node.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node[0m
+[ 87%] Built target roll_pitch_yawrate_thrust_controller_node
+[100%] [32m[1mLinking CXX executable /home/rishabh/catkin_ws/devel/.private/rotors_control/lib/rotors_control/lee_position_controller_node[0m
+[100%] Built target lee_position_controller_node

@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/devel/.private/rosbag_to_csv
+
+Name: rosbag_to_csv
+Description: Description of rosbag_to_csv
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

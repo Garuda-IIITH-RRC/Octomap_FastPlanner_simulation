@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target terminal_owp[0m
+make[2]: *** No rule to make target 'CMakeFiles/terminal_owp.dir/build'.  Stop.
+CMakeFiles/Makefile2:485: recipe for target 'CMakeFiles/terminal_owp.dir/all' failed
+make[1]: *** [CMakeFiles/terminal_owp.dir/all] Error 2
+Makefile:162: recipe for target 'all' failed
+make: *** [all] Error 2

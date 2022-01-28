@@ -1,0 +1,8 @@
+prefix=/home/rishabh/catkin_ws/devel/.private/mybot
+
+Name: mybot
+Description: Description of mybot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

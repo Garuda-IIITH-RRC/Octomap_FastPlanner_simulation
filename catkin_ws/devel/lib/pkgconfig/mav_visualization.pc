@@ -1,0 +1,1 @@
+/home/rishabh/catkin_ws/devel/.private/mav_visualization/lib/pkgconfig/mav_visualization.pc
