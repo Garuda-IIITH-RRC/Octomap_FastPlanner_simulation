@@ -33,7 +33,7 @@ commander takeoff
 It will launch Gazebo, World, Mavros, PX4, Quadcopter(iris_depth_camera).\
 You can choose world from PX4-Autopilot/Tools/sitl_gazebo/worlds\
 Choose quadcopter from PX4-Autopilot/Tools/sitl_gazebo/models\
-Make changes into mavros_posix_sitl.launch\
+Make changes into mavros_posix_sitl.launch
 
 ### Terminal 2:-
 ```bash
