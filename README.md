@@ -1,4 +1,4 @@
-# FastPlanner using Octomap [Simulation and Hardware]
+# FastPlanner using Octomap 
 
 ## Catkin Folder Structure
 All folder(workspaces) are in /home directory
