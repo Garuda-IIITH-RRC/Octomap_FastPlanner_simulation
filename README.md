@@ -1,14 +1,16 @@
 # FastPlanner using Octomap 
 
+Download mavros, mavlink and Px4-Autopilot from their respective Github repo
+
 ## Catkin Folder Structure
 All folder(workspaces) are in /home directory
 1. PX4-Autopilot\
   Contains PX4-Gazebo-SITL
-  
+ 
 2. catkin_ws\
   Contains mavros
   
-3. save FastPlannerOctomap in a catkin workspace and name it as fastplanner_ws\
+3. save FastPlannerOctomap in fastplanner_ws/src and catkin_build 
   Contains mapping, planning and controller
 
 
