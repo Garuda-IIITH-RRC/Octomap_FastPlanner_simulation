@@ -1,8 +1,4 @@
-# fastplanner
-
-
-![Alt text](https://github.com/deepak-1530/FastPlannerOctomap/blob/main/FastPlanner_OctomapAvoidance.gif)
-![Alt text](https://github.com/deepak-1530/FastPlannerOctomap/blob/main/GardenAvoidance.gif)
+# FastPlanner using Octomap [Simulation and Hardware]
 
 ## Catkin Folder Structure
 All folder(workspaces) are in /home directory
@@ -16,13 +12,12 @@ All folder(workspaces) are in /home directory
   Contains mapping, planning and controller
 
 
-## How To Run
+## How To Run Simulation
 
 ### Terminal 1:-
 ```bash
 cd PX4-Autopilot/
-source ~/catkin_ws/devel/setup.zsh
-source ~/fastplanner_ws/devel/setup.zsh
+source ~/catkin_ws/devel/setup.bash
 source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
@@ -42,26 +37,16 @@ Make changes into mavros_posix_sitl.launch\
 
 ### Terminal 2:-
 ```bash
-cd PX4-Autopilot/
-source ~/catkin_ws/devel/setup.zsh
-source ~/fastplanner_ws/devel/setup.zsh
-source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
-
+cd fastplanner_ws/
+source devel/setup.bash
 roslaunch FastPlannerOctomap MappingSim.launch
 ```
 Give goal location using 2D Nav Goal option in rviz
 
 ### Terminal 3:-
 ```bash
-cd PX4-Autopilot/
-source ~/catkin_ws/devel/setup.zsh
-source ~/fastplanner_ws/devel/setup.zsh
-source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
-
+cd fastplanner_ws/
+source devel/setup.bash
 rosrun FastPlannerOctomap Planner
 ```
 For the startOver option select either 1 or 0.\
@@ -69,15 +54,13 @@ Also give the height (in metres) of the goal location when prompted.\
 
 ### Terminal 4:-
 ```bash
-cd PX4-Autopilot/
-source ~/catkin_ws/devel/setup.zsh
-source ~/fastplanner_ws/devel/setup.zsh
-source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
-
+cd fastplanner_ws/
+source devel/setup.bash
 rosrun FastPlannerOctomap Controller
 ```
 
+
+![Alt text](https://github.com/deepak-1530/FastPlannerOctomap/blob/main/FastPlanner_OctomapAvoidance.gif)
+![Alt text](https://github.com/deepak-1530/FastPlannerOctomap/blob/main/GardenAvoidance.gif)
 
 Reference:- https://github.com/deepak-1530/FastPlannerOctomap
