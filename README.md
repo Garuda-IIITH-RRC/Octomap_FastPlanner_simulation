@@ -2,13 +2,13 @@
 
 ## Catkin Folder Structure
 All folder(workspaces) are in /home directory
-1. PX4-Autopilot\
+1. PX4-Autopilot
   Contains PX4-Gazebo-SITL
   
-2. catkin_ws\
+2. catkin_ws
   Contains mavros
   
-3. fastplanner_ws\
+3. save FasterPlannerOctomap in a catkin workspace and name it as fastplanner_ws
   Contains mapping, planning and controller
 
 
