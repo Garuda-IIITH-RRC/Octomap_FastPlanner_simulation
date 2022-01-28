@@ -2,13 +2,13 @@
 
 ## Catkin Folder Structure
 All folder(workspaces) are in /home directory
-1. PX4-Autopilot
+1. PX4-Autopilot\
   Contains PX4-Gazebo-SITL
   
-2. catkin_ws
+2. catkin_ws\
   Contains mavros
   
-3. save FasterPlannerOctomap in a catkin workspace and name it as fastplanner_ws
+3. save FasterPlannerOctomap in a catkin workspace and name it as fastplanner_ws\
   Contains mapping, planning and controller
 
 
@@ -30,10 +30,10 @@ In same terminal type
 commander takeoff
 ```
 
-It will launch Gazebo, World, Mavros, PX4, Quadcopter(iris_depth_camera)
-You can choose world from PX4-Autopilot/Tools/sitl_gazebo/worlds
-Choose quadcopter from PX4-Autopilot/Tools/sitl_gazebo/models
-Make changes into mavros_posix_sitl.launch
+It will launch Gazebo, World, Mavros, PX4, Quadcopter(iris_depth_camera)\
+You can choose world from PX4-Autopilot/Tools/sitl_gazebo/worlds\
+Choose quadcopter from PX4-Autopilot/Tools/sitl_gazebo/models\
+Make changes into mavros_posix_sitl.launch\
 
 ### Terminal 2:-
 ```bash
@@ -41,7 +41,7 @@ cd fastplanner_ws/
 source devel/setup.bash
 roslaunch FastPlannerOctomap MappingSim.launch
 ```
-Give goal location using 2D Nav Goal option in rviz
+Give goal location using 2D Nav Goal option in rviz\
 
 ### Terminal 3:-
 ```bash
@@ -49,8 +49,8 @@ cd fastplanner_ws/
 source devel/setup.bash
 rosrun FastPlannerOctomap Planner
 ```
-For the startOver option select either 1 or 0.
-Also give the height (in metres) of the goal location when prompted.
+For the startOver option select either 1 or 0\
+Also give the height (in metres) of the goal location when prompted.\
 
 ### Terminal 4:-
 ```bash
