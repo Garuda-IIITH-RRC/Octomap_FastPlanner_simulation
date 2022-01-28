@@ -10,7 +10,7 @@ All folder(workspaces) are in /home directory
 2. catkin_ws\
   Contains mavros
   
-3. save FastPlannerOctomap in fastplanner_ws/src and catkin_build\
+3. fastplanner_ws\
   Contains mapping, planning and controller
 
 
