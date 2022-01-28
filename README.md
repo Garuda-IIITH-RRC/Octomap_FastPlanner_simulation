@@ -30,9 +30,9 @@ In same terminal type
 commander takeoff
 ```
 
-It will launch Gazebo, World, Mavros, PX4, Quadcopter(iris_depth_camera).\
-You can choose world from PX4-Autopilot/Tools/sitl_gazebo/worlds\
-Choose quadcopter from PX4-Autopilot/Tools/sitl_gazebo/models\
+It will launch Gazebo, World, Mavros, PX4, Quadcopter(iris_depth_camera)
+You can choose world from PX4-Autopilot/Tools/sitl_gazebo/worlds
+Choose quadcopter from PX4-Autopilot/Tools/sitl_gazebo/models
 Make changes into mavros_posix_sitl.launch
 
 ### Terminal 2:-
@@ -49,8 +49,8 @@ cd fastplanner_ws/
 source devel/setup.bash
 rosrun FastPlannerOctomap Planner
 ```
-For the startOver option select either 1 or 0.\
-Also give the height (in metres) of the goal location when prompted.\
+For the startOver option select either 1 or 0.
+Also give the height (in metres) of the goal location when prompted.
 
 ### Terminal 4:-
 ```bash
