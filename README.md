@@ -64,7 +64,6 @@ rosrun FastPlannerOctomap Controller
 <img src="https://github.com/Garuda-IIITH-RRC/Octomap_FastPlanner_simulation/blob/main/fast_sim.gif" width="1000" height="300">
 
 ### Youtube Link:-
-  
 
 [![](https://img.youtube.com/vi/xpzdZVvVE0Y/0.jpg)](https://www.youtube.com/watch?v=xpzdZVvVE0Y)
 
